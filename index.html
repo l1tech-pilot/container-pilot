@@ -1841,7 +1841,7 @@ var PLANT_SPEC = {
       "from": "TE-1-R.branch",
       "hiddenHead": 0.0,
       "id": "\u041a\u041f-L-112",
-      "medium": "brine",
+      "medium": "raffinate",
       "radius": 0.025,
       "stream": null,
       "to": "\u041a\u041f-\u041a\u041b-06.branch4",
@@ -2126,7 +2126,7 @@ var PLANT_SPEC = {
       "from": "TE-2-R.branch",
       "hiddenHead": 0.0,
       "id": "\u041a\u041f-L-212",
-      "medium": "brine",
+      "medium": "raffinate",
       "radius": 0.025,
       "stream": null,
       "to": "\u041a\u041f-\u041a\u041b-06.branch3",
@@ -2411,7 +2411,7 @@ var PLANT_SPEC = {
       "from": "TE-3-R.branch",
       "hiddenHead": 0.0,
       "id": "\u041a\u041f-L-312",
-      "medium": "brine",
+      "medium": "raffinate",
       "radius": 0.025,
       "stream": null,
       "to": "\u041a\u041f-\u041a\u041b-06.branch2",
@@ -2696,7 +2696,7 @@ var PLANT_SPEC = {
       "from": "TE-4-R.branch",
       "hiddenHead": 0.0,
       "id": "\u041a\u041f-L-412",
-      "medium": "brine",
+      "medium": "raffinate",
       "radius": 0.025,
       "stream": null,
       "to": "\u041a\u041f-\u041a\u041b-06.branch1",
@@ -2768,7 +2768,7 @@ var PLANT_SPEC = {
       "from": "\u041a\u041f-\u041a\u041b-06.outlet",
       "hiddenHead": 0.0,
       "id": "\u041a\u041f-L-030",
-      "medium": "brine",
+      "medium": "raffinate",
       "radius": 0.0375,
       "stream": null,
       "to": "\u041a\u041f-\u0412\u041f-03.inside",
@@ -2945,7 +2945,7 @@ var PLANT_SPEC = {
       "from": "\u041a\u041f-\u0424-1.drainOut",
       "hiddenHead": 0.0,
       "id": "\u041a\u041f-L-005",
-      "medium": "brine",
+      "medium": "raffinate",
       "radius": 0.0315,
       "stream": null,
       "to": "\u041a\u041f-\u0412\u041f-02.inside",
@@ -2966,40 +2966,27 @@ var PLANT_SPEC = {
       "medium": "brine",
       "radius": 0.045,
       "stream": null,
-      "to": "TE-F1.branch",
+      "to": "\u041a\u041f-\u0424-2.inlet",
       "waypoints": [
         [
-          -1.0,
+          -0.85,
           0.728,
           -0.55
         ],
         [
-          -1.0,
+          -0.85,
           2.2,
           -0.55
         ],
         [
-          -1.0,
+          -0.85,
           2.2,
-          0.74
-        ]
-      ]
-    },
-    {
-      "dn": 80,
-      "flexTail": 0.0,
-      "from": "TE-F1.runOut",
-      "hiddenHead": 0.0,
-      "id": "\u041a\u041f-L-010",
-      "medium": "brine",
-      "radius": 0.045,
-      "stream": null,
-      "to": "\u041a\u041f-\u0424-2.inlet",
-      "waypoints": [
+          0.93
+        ],
         [
-          -1.0,
+          -0.85,
           0.658,
-          0.55
+          0.93
         ]
       ]
     },
@@ -3008,50 +2995,14 @@ var PLANT_SPEC = {
       "flexTail": 0.0,
       "from": "\u041a\u041f-\u0424-2.outlet",
       "hiddenHead": 0.0,
-      "id": "\u041a\u041f-L-011",
-      "medium": "brine",
-      "radius": 0.045,
-      "stream": null,
-      "to": "\u041a\u041f-\u0424-4.inlet",
-      "waypoints": [
-        [
-          -1.75,
-          0.658,
-          0.55
-        ]
-      ]
-    },
-    {
-      "dn": 80,
-      "flexTail": 0.0,
-      "from": "\u041a\u041f-\u0424-4.outlet",
-      "hiddenHead": 0.0,
-      "id": "\u041a\u041f-L-012",
-      "medium": "brine",
-      "radius": 0.045,
-      "stream": null,
-      "to": "TE-F2.runOut",
-      "waypoints": [
-        [
-          -2.42,
-          0.658,
-          0.55
-        ]
-      ]
-    },
-    {
-      "dn": 80,
-      "flexTail": 0.0,
-      "from": "TE-F1.runIn",
-      "hiddenHead": 0.0,
-      "id": "\u041a\u041f-L-013",
+      "id": "\u041a\u041f-L-010",
       "medium": "brine",
       "radius": 0.045,
       "stream": null,
       "to": "\u041a\u041f-\u0424-3.inlet",
       "waypoints": [
         [
-          -1.0,
+          -1.75,
           0.658,
           0.93
         ]
@@ -3062,41 +3013,28 @@ var PLANT_SPEC = {
       "flexTail": 0.0,
       "from": "\u041a\u041f-\u0424-3.outlet",
       "hiddenHead": 0.0,
-      "id": "\u041a\u041f-L-014",
+      "id": "\u041a\u041f-L-011",
       "medium": "brine",
       "radius": 0.045,
       "stream": null,
-      "to": "\u041a\u041f-\u0424-5.inlet",
+      "to": "\u041a\u041f-\u0423\u0424-1.feedIn",
       "waypoints": [
         [
-          -1.75,
+          -2.45,
           0.658,
           0.93
+        ],
+        [
+          -2.45,
+          0.658,
+          0.55
         ]
       ]
     },
     {
       "dn": 80,
       "flexTail": 0.0,
-      "from": "\u041a\u041f-\u0424-5.outlet",
-      "hiddenHead": 0.0,
-      "id": "\u041a\u041f-L-015",
-      "medium": "brine",
-      "radius": 0.045,
-      "stream": null,
-      "to": "TE-F2.runIn",
-      "waypoints": [
-        [
-          -2.42,
-          0.658,
-          0.93
-        ]
-      ]
-    },
-    {
-      "dn": 80,
-      "flexTail": 0.0,
-      "from": "TE-F2.branch",
+      "from": "\u041a\u041f-\u0423\u0424-1.filtrateOut",
       "hiddenHead": 0.0,
       "id": "\u041a\u041f-L-017",
       "medium": "brine",
@@ -3105,12 +3043,17 @@ var PLANT_SPEC = {
       "to": "\u041a\u041f-\u041a\u041b-01.inlet",
       "waypoints": [
         [
-          -2.42,
-          2.35,
-          0.74
+          -1.0,
+          2.158,
+          0.55
         ],
         [
-          -2.42,
+          -1.0,
+          2.35,
+          0.55
+        ],
+        [
+          -1.0,
           2.35,
           -0.55
         ],
@@ -3123,6 +3066,24 @@ var PLANT_SPEC = {
           -0.05,
           1.9,
           -0.55
+        ]
+      ]
+    },
+    {
+      "dn": 50,
+      "flexTail": 0.0,
+      "from": "\u041a\u041f-\u0423\u0424-1.drainOut",
+      "hiddenHead": 0.0,
+      "id": "\u041a\u041f-L-014",
+      "medium": "raffinate",
+      "radius": 0.0315,
+      "stream": null,
+      "to": "\u041a\u041f-\u0412\u041f-12.inside",
+      "waypoints": [
+        [
+          -0.98,
+          1.938,
+          0.37
         ]
       ]
     },
@@ -3714,8 +3675,8 @@ var PLANT_SPEC = {
         "elevation": 0.5,
         "endLength": 0.2,
         "flangeColor": 9344153,
-        "medium": "brine",
-        "mediumColor": null,
+        "medium": "raffinate",
+        "mediumColor": 9334709,
         "pipeColor": 10134443,
         "pitch": 0.6,
         "rackTiers": [],
@@ -4547,7 +4508,7 @@ var PLANT_SPEC = {
       "label": "\u0412\u044b\u0432\u043e\u0434 \u043e\u0442\u0440\u0430\u0431\u043e\u0442\u0430\u043d\u043d\u043e\u0433\u043e \u0440\u0430\u0441\u0441\u043e\u043b\u0430 \u041a\u041f-\u0412\u041f-03 \u2014 DN65, \u043a\u0430\u043c\u043b\u043e\u043a \u0432\u0440\u043e\u0432\u0435\u043d\u044c \u0441\u043e \u0441\u0442\u0435\u043d\u043e\u0439; \u043d\u0430\u0440\u0443\u0436\u0443, \u0432 \u0441\u0431\u0440\u043e\u0441",
       "nozzles": [],
       "params": {
-        "bandColor": 3050375,
+        "bandColor": 9334709,
         "coupling": "camlock",
         "insideLength": 0.16,
         "pipeColor": 3817285,
@@ -4733,7 +4694,7 @@ var PLANT_SPEC = {
     {
       "id": "\u041a\u041f-\u0412\u041f-01",
       "instanceable": false,
-      "label": "\u0412\u0432\u043e\u0434 \u0440\u0430\u0441\u0441\u043e\u043b\u0430 \u041a\u041f-\u0412\u041f-01 \u2014 DN80, \u043a\u0430\u043c\u043b\u043e\u043a \u0432\u0440\u043e\u0432\u0435\u043d\u044c \u0441\u043e \u0441\u0442\u0435\u043d\u043e\u0439; \u043f\u043e\u0434 \u0440\u0443\u043a\u0430\u0432 \u043e\u0442 \u0432\u043e\u0434\u043e\u0437\u0430\u0431\u043e\u0440\u0430",
+      "label": "\u041f\u0443\u0442\u044c \u0440\u0430\u0441\u0441\u043e\u043b\u0430, \u0448\u0430\u0433 1 \u2014 \u0432\u0432\u043e\u0434 \u0440\u0430\u0441\u0441\u043e\u043b\u0430 \u041a\u041f-\u0412\u041f-01: DN80, \u043a\u0430\u043c\u043b\u043e\u043a \u0432\u0440\u043e\u0432\u0435\u043d\u044c \u0441\u043e \u0441\u0442\u0435\u043d\u043e\u0439, \u043f\u043e\u0434 \u0440\u0443\u043a\u0430\u0432 \u043e\u0442 \u0432\u043e\u0434\u043e\u0437\u0430\u0431\u043e\u0440\u0430",
       "nozzles": [],
       "params": {
         "bandColor": 3050375,
@@ -4760,7 +4721,7 @@ var PLANT_SPEC = {
     {
       "id": "\u041a\u041f-\u041d-1",
       "instanceable": false,
-      "label": "\u041d\u0430\u0441\u043e\u0441 \u0440\u0430\u0441\u0441\u043e\u043b\u0430 \u041a\u041f-\u041d-1 \u2014 \u0446\u0435\u043d\u0442\u0440\u043e\u0431\u0435\u0436\u043d\u044b\u0439, PP, \u043c\u0430\u0433\u043d\u0438\u0442\u043d\u0430\u044f \u043c\u0443\u0444\u0442\u0430, \u0427\u0420\u041f; 40 \u043c\u00b3/\u0447",
+      "label": "\u041f\u0443\u0442\u044c \u0440\u0430\u0441\u0441\u043e\u043b\u0430, \u0448\u0430\u0433 2 \u2014 \u043d\u0430\u0441\u043e\u0441 \u0440\u0430\u0441\u0441\u043e\u043b\u0430 \u041a\u041f-\u041d-1: \u0446\u0435\u043d\u0442\u0440\u043e\u0431\u0435\u0436\u043d\u044b\u0439, PP, \u043c\u0430\u0433\u043d\u0438\u0442\u043d\u0430\u044f \u043c\u0443\u0444\u0442\u0430, \u0427\u0420\u041f; 40 \u043c\u00b3/\u0447",
       "nozzles": [],
       "params": {
         "baseColor": 3359061,
@@ -4790,7 +4751,7 @@ var PLANT_SPEC = {
     {
       "id": "\u041a\u041f-\u0424-1",
       "instanceable": false,
-      "label": "\u0421\u0430\u043c\u043e\u043e\u0447\u0438\u0449\u0430\u044e\u0449\u0438\u0439\u0441\u044f \u0444\u0438\u043b\u044c\u0442\u0440 \u041a\u041f-\u0424-1 \u2014 \u043f\u043e\u043b\u0438\u043c\u0435\u0440\u043d\u044b\u0439 \u043a\u043e\u0440\u043f\u0443\u0441, 100 \u043c\u043a\u043c, \u043f\u0440\u043e\u043c\u044b\u0432\u043a\u0430 \u043f\u043e \u0394P \u043d\u0430\u0440\u0443\u0436\u0443",
+      "label": "\u041f\u0443\u0442\u044c \u0440\u0430\u0441\u0441\u043e\u043b\u0430, \u0448\u0430\u0433 3 \u2014 \u0444\u0438\u043b\u044c\u0442\u0440 \u041a\u041f-\u0424-1, \u0441\u0442\u0443\u043f\u0435\u043d\u044c 1 \u0438\u0437 4: \u0441\u0430\u043c\u043e\u043e\u0447\u0438\u0449\u0430\u044e\u0449\u0438\u0439\u0441\u044f, 100 \u043c\u043a\u043c, \u043f\u043e\u043b\u0438\u043c\u0435\u0440\u043d\u044b\u0439 \u043a\u043e\u0440\u043f\u0443\u0441",
       "nozzles": [],
       "params": {
         "backwashManifold": true,
@@ -4830,7 +4791,7 @@ var PLANT_SPEC = {
       "label": "\u0412\u044b\u0432\u043e\u0434 \u043f\u0440\u043e\u043c\u044b\u0432\u043a\u0438 \u0444\u0438\u043b\u044c\u0442\u0440\u0430 \u0424-1 \u041a\u041f-\u0412\u041f-02 \u2014 DN50, \u043a\u0430\u043c\u043b\u043e\u043a \u0432\u0440\u043e\u0432\u0435\u043d\u044c \u0441\u043e \u0441\u0442\u0435\u043d\u043e\u0439; \u043d\u0430\u0440\u0443\u0436\u0443, \u0432 \u0441\u0431\u0440\u043e\u0441",
       "nozzles": [],
       "params": {
-        "bandColor": 3050375,
+        "bandColor": 9334709,
         "coupling": "camlock",
         "insideLength": 0.16,
         "pipeColor": 3817285,
@@ -4854,7 +4815,7 @@ var PLANT_SPEC = {
     {
       "id": "\u041a\u041f-\u0424-2",
       "instanceable": false,
-      "label": "\u041a\u0430\u0440\u0442\u0440\u0438\u0434\u0436\u043d\u044b\u0439 \u0444\u0438\u043b\u044c\u0442\u0440 \u041a\u041f-\u0424-2 \u2014 \u043f\u043e\u043b\u0438\u043c\u0435\u0440\u043d\u044b\u0439 \u043a\u043e\u0440\u043f\u0443\u0441, 10 \u043c\u043a\u043c, \u0440\u0430\u0431\u043e\u0447\u0430\u044f \u043b\u0438\u043d\u0438\u044f",
+      "label": "\u041f\u0443\u0442\u044c \u0440\u0430\u0441\u0441\u043e\u043b\u0430, \u0448\u0430\u0433 4 \u2014 \u0444\u0438\u043b\u044c\u0442\u0440 \u041a\u041f-\u0424-2, \u0441\u0442\u0443\u043f\u0435\u043d\u044c 2 \u0438\u0437 4: \u043a\u0430\u0440\u0442\u0440\u0438\u0434\u0436\u043d\u044b\u0439, 10 \u043c\u043a\u043c, \u043f\u043e\u043b\u0438\u043c\u0435\u0440\u043d\u044b\u0439 \u043a\u043e\u0440\u043f\u0443\u0441",
       "nozzles": [],
       "params": {
         "cartridgeColor": 15855850,
@@ -4871,7 +4832,7 @@ var PLANT_SPEC = {
       "position": [
         -1.45,
         0.158,
-        0.55
+        0.93
       ],
       "rotation": [
         0.0,
@@ -4884,37 +4845,7 @@ var PLANT_SPEC = {
     {
       "id": "\u041a\u041f-\u0424-3",
       "instanceable": false,
-      "label": "\u041a\u0430\u0440\u0442\u0440\u0438\u0434\u0436\u043d\u044b\u0439 \u0444\u0438\u043b\u044c\u0442\u0440 \u041a\u041f-\u0424-3 \u2014 \u043f\u043e\u043b\u0438\u043c\u0435\u0440\u043d\u044b\u0439 \u043a\u043e\u0440\u043f\u0443\u0441, 10 \u043c\u043a\u043c, \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u0430\u044f \u043b\u0438\u043d\u0438\u044f",
-      "nozzles": [],
-      "params": {
-        "cartridgeColor": 15855850,
-        "cartridges": 7,
-        "color": 3108272,
-        "height": 0.9,
-        "legHeight": 0.3,
-        "lidColor": 15659250,
-        "micron": 10.0,
-        "nozzleRadius": 0.045,
-        "nozzleY": 0.5,
-        "radius": 0.13
-      },
-      "position": [
-        -1.45,
-        0.158,
-        0.93
-      ],
-      "rotation": [
-        0.0,
-        180.0,
-        0.0
-      ],
-      "transparent": false,
-      "type": "cartridge_filter"
-    },
-    {
-      "id": "\u041a\u041f-\u0424-4",
-      "instanceable": false,
-      "label": "\u041a\u0430\u0440\u0442\u0440\u0438\u0434\u0436\u043d\u044b\u0439 \u0444\u0438\u043b\u044c\u0442\u0440 \u041a\u041f-\u0424-4 \u2014 \u043f\u043e\u043b\u0438\u043c\u0435\u0440\u043d\u044b\u0439 \u043a\u043e\u0440\u043f\u0443\u0441, 1 \u043c\u043a\u043c, \u0440\u0430\u0431\u043e\u0447\u0430\u044f \u043b\u0438\u043d\u0438\u044f",
+      "label": "\u041f\u0443\u0442\u044c \u0440\u0430\u0441\u0441\u043e\u043b\u0430, \u0448\u0430\u0433 5 \u2014 \u0444\u0438\u043b\u044c\u0442\u0440 \u041a\u041f-\u0424-3, \u0441\u0442\u0443\u043f\u0435\u043d\u044c 3 \u0438\u0437 4: \u043a\u0430\u0440\u0442\u0440\u0438\u0434\u0436\u043d\u044b\u0439, 1 \u043c\u043a\u043c, \u043f\u043e\u043b\u0438\u043c\u0435\u0440\u043d\u044b\u0439 \u043a\u043e\u0440\u043f\u0443\u0441",
       "nozzles": [],
       "params": {
         "cartridgeColor": 15855850,
@@ -4930,104 +4861,75 @@ var PLANT_SPEC = {
       },
       "position": [
         -2.05,
+        0.158,
+        0.93
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ],
+      "transparent": false,
+      "type": "cartridge_filter"
+    },
+    {
+      "id": "\u041a\u041f-\u0423\u0424-1",
+      "instanceable": false,
+      "label": "\u041f\u0443\u0442\u044c \u0440\u0430\u0441\u0441\u043e\u043b\u0430, \u0448\u0430\u0433 6 \u2014 \u0443\u043b\u044c\u0442\u0440\u0430\u0444\u0438\u043b\u044c\u0442\u0440\u0430\u0446\u0438\u044f \u041a\u041f-\u0423\u0424-1, \u0441\u0442\u0443\u043f\u0435\u043d\u044c 4 \u0438\u0437 4: 4 \u043f\u043e\u043b\u043e\u0432\u043e\u043b\u043e\u043a\u043e\u043d\u043d\u044b\u0445 \u043c\u043e\u0434\u0443\u043b\u044f",
+      "nozzles": [],
+      "params": {
+        "capColor": 3108272,
+        "color": 15922165,
+        "drainRadius": 0.0315,
+        "feedY": 0.5,
+        "frameColor": 3817285,
+        "headerRadius": 0.045,
+        "legHeight": 0.6,
+        "moduleArea": 80.0,
+        "moduleHeight": 1.3,
+        "moduleRadius": 0.1,
+        "modules": 4,
+        "pitch": 0.28
+      },
+      "position": [
+        -1.73,
         0.158,
         0.55
       ],
       "rotation": [
         0.0,
-        180.0,
+        0.0,
         0.0
       ],
       "transparent": false,
-      "type": "cartridge_filter"
+      "type": "ultrafiltration"
     },
     {
-      "id": "\u041a\u041f-\u0424-5",
+      "id": "\u041a\u041f-\u0412\u041f-12",
       "instanceable": false,
-      "label": "\u041a\u0430\u0440\u0442\u0440\u0438\u0434\u0436\u043d\u044b\u0439 \u0444\u0438\u043b\u044c\u0442\u0440 \u041a\u041f-\u0424-5 \u2014 \u043f\u043e\u043b\u0438\u043c\u0435\u0440\u043d\u044b\u0439 \u043a\u043e\u0440\u043f\u0443\u0441, 1 \u043c\u043a\u043c, \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u0430\u044f \u043b\u0438\u043d\u0438\u044f",
+      "label": "\u0412\u044b\u0432\u043e\u0434 \u043f\u0440\u043e\u043c\u044b\u0432\u043a\u0438 \u0443\u043b\u044c\u0442\u0440\u0430\u0444\u0438\u043b\u044c\u0442\u0440\u0430\u0446\u0438\u0438 \u041a\u041f-\u0412\u041f-12 \u2014 DN50, \u043a\u0430\u043c\u043b\u043e\u043a \u0432\u0440\u043e\u0432\u0435\u043d\u044c \u0441\u043e \u0441\u0442\u0435\u043d\u043e\u0439; \u043d\u0430\u0440\u0443\u0436\u0443, \u0432 \u0441\u0431\u0440\u043e\u0441",
       "nozzles": [],
       "params": {
-        "cartridgeColor": 15855850,
-        "cartridges": 7,
-        "color": 3108272,
-        "height": 0.9,
-        "legHeight": 0.3,
-        "lidColor": 15659250,
-        "micron": 1.0,
-        "nozzleRadius": 0.045,
-        "nozzleY": 0.5,
-        "radius": 0.13
+        "bandColor": 9334709,
+        "coupling": "camlock",
+        "insideLength": 0.16,
+        "pipeColor": 3817285,
+        "plateColor": 12173511,
+        "radius": 0.0315,
+        "wallThickness": 0.053
       },
       "position": [
-        -2.05,
-        0.158,
-        0.93
+        -0.98,
+        1.938,
+        -1.1945
       ],
       "rotation": [
         0.0,
-        180.0,
-        0.0
-      ],
-      "transparent": false,
-      "type": "cartridge_filter"
-    },
-    {
-      "id": "TE-F1",
-      "instanceable": false,
-      "label": "\u0422\u0440\u043e\u0439\u043d\u0438\u043a \u0440\u0430\u0437\u0434\u0430\u0447\u0438 \u0440\u0430\u0441\u0441\u043e\u043b\u0430 \u043d\u0430 \u0440\u0430\u0431\u043e\u0447\u0443\u044e \u0438 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u0443\u044e \u043b\u0438\u043d\u0438\u0438 \u043a\u0430\u0440\u0442\u0440\u0438\u0434\u0436\u0435\u0439",
-      "nozzles": [],
-      "params": {
-        "branchLength": 0.1315,
-        "branchRadius": 0.045,
-        "branchSide": "up",
-        "flangeColor": 9344153,
-        "medium": "brine",
-        "mediumColor": null,
-        "pipeColor": 10134443,
-        "radius": 0.045,
-        "runLength": 0.25
-      },
-      "position": [
-        -1.0,
-        0.658,
-        0.74
-      ],
-      "rotation": [
         0.0,
-        90.0,
         0.0
       ],
       "transparent": false,
-      "type": "pipe_tee"
-    },
-    {
-      "id": "TE-F2",
-      "instanceable": false,
-      "label": "\u0422\u0440\u043e\u0439\u043d\u0438\u043a \u0441\u0431\u043e\u0440\u0430 \u0440\u0430\u0441\u0441\u043e\u043b\u0430 \u043f\u043e\u0441\u043b\u0435 \u043a\u0430\u0440\u0442\u0440\u0438\u0434\u0436\u0435\u0439",
-      "nozzles": [],
-      "params": {
-        "branchLength": 0.1315,
-        "branchRadius": 0.045,
-        "branchSide": "up",
-        "flangeColor": 9344153,
-        "medium": "brine",
-        "mediumColor": null,
-        "pipeColor": 10134443,
-        "radius": 0.045,
-        "runLength": 0.25
-      },
-      "position": [
-        -2.42,
-        0.658,
-        0.74
-      ],
-      "rotation": [
-        0.0,
-        90.0,
-        0.0
-      ],
-      "transparent": false,
-      "type": "pipe_tee"
+      "type": "wall_penetration"
     },
     {
       "id": "\u041a\u041f-\u041a\u041c-1",
@@ -6072,53 +5974,53 @@ var PLANT_SPEC = {
       "connectionId": "\u041a\u041f-L-006",
       "id": "\u041a\u041f-XV-007",
       "label": "\u041e\u0442\u0441\u0435\u0447\u043a\u0430 \u0440\u0430\u0441\u0441\u043e\u043b\u0430 \u043f\u043e\u0441\u043b\u0435 \u0424-1: \u043e\u0442\u043a\u0440\u044b\u0442 \u0432 \u0440\u0430\u0431\u043e\u0442\u0435, \u041f\u041b\u041a \u0437\u0430\u043a\u0440\u044b\u0432\u0430\u0435\u0442 \u043d\u0430 \u043f\u0440\u043e\u043c\u044b\u0432\u043a\u0443 \u0424-1",
-      "position": 0.1178,
+      "position": 0.1282,
       "size": 0.375,
       "state": "open",
       "type": "valve"
     },
     {
       "color": 9807270,
-      "connectionId": "\u041a\u041f-L-010",
-      "id": "\u041a\u041f-HV-010",
-      "label": "\u041e\u0442\u0441\u0435\u0447\u043d\u043e\u0439 \u043a\u0440\u0430\u043d \u0440\u0430\u0431\u043e\u0447\u0435\u0439 \u043b\u0438\u043d\u0438\u0438 \u043a\u0430\u0440\u0442\u0440\u0438\u0434\u0436\u0435\u0439, \u043d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u043e \u043e\u0442\u043a\u0440\u044b\u0442",
+      "connectionId": "\u041a\u041f-L-006",
+      "id": "\u041a\u041f-HV-008",
+      "label": "\u041e\u0442\u0441\u0435\u0447\u043d\u043e\u0439 \u043a\u0440\u0430\u043d \u043f\u0435\u0440\u0435\u0434 \u043a\u0430\u0440\u0442\u0440\u0438\u0434\u0436\u0430\u043c\u0438, \u043d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u043e \u043e\u0442\u043a\u0440\u044b\u0442",
       "opening": 1.0,
-      "position": 0.6226,
+      "position": 0.9659,
       "size": 0.375,
       "type": "handvalve"
     },
     {
       "color": 9807270,
-      "connectionId": "\u041a\u041f-L-012",
+      "connectionId": "\u041a\u041f-L-011",
       "id": "\u041a\u041f-HV-012",
-      "label": "\u041e\u0442\u0441\u0435\u0447\u043d\u043e\u0439 \u043a\u0440\u0430\u043d \u0440\u0430\u0431\u043e\u0447\u0435\u0439 \u043b\u0438\u043d\u0438\u0438 \u043a\u0430\u0440\u0442\u0440\u0438\u0434\u0436\u0435\u0439, \u043d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u043e \u043e\u0442\u043a\u0440\u044b\u0442",
+      "label": "\u041e\u0442\u0441\u0435\u0447\u043d\u043e\u0439 \u043a\u0440\u0430\u043d \u043f\u0435\u0440\u0435\u0434 \u0443\u043b\u044c\u0442\u0440\u0430\u0444\u0438\u043b\u044c\u0442\u0440\u0430\u0446\u0438\u0435\u0439, \u043d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u043e \u043e\u0442\u043a\u0440\u044b\u0442",
       "opening": 1.0,
-      "position": 0.3243,
+      "position": 0.5397,
       "size": 0.375,
       "type": "handvalve"
     },
     {
       "color": 9807270,
-      "connectionId": "\u041a\u041f-L-010",
+      "connectionId": "\u041a\u041f-L-006",
       "id": "\u041a\u041f-PDIT-016",
       "jitter": 0.0,
-      "label": "\u0394P \u043d\u0430 \u0440\u0430\u0431\u043e\u0447\u0435\u0439 \u043b\u0438\u043d\u0438\u0438 \u043a\u0430\u0440\u0442\u0440\u0438\u0434\u0436\u0435\u0439 (\u0434\u0432\u0435 \u0441\u0442\u0443\u043f\u0435\u043d\u0438): \u0447\u0438\u0441\u0442\u044b\u0435 0,3 \u0431\u0430\u0440, \u0437\u0430\u043c\u0435\u043d\u0430 \u043f\u0440\u0438 1,0 \u0431\u0430\u0440",
+      "label": "\u0394P \u043d\u0430 \u043a\u0430\u0440\u0442\u0440\u0438\u0434\u0436\u0430\u0445 \u0424-2 + \u0424-3: \u0447\u0438\u0441\u0442\u044b\u0435 0,3 \u0431\u0430\u0440, \u0437\u0430\u043c\u0435\u043d\u0430 \u043f\u0440\u0438 1,0 \u0431\u0430\u0440",
       "mount": "frame",
       "offset": [
         0.0,
         0.25,
         0.0
       ],
-      "position": 0.8491,
+      "position": 0.98,
       "size": 0.375,
       "standHeight": 0.0,
       "tapHigh": {
-        "connectionId": "\u041a\u041f-L-010",
-        "position": 0.8868
+        "connectionId": "\u041a\u041f-L-006",
+        "position": 0.98
       },
       "tapLow": {
-        "connectionId": "\u041a\u041f-L-012",
-        "position": 0.1946
+        "connectionId": "\u041a\u041f-L-011",
+        "position": 0.119
       },
       "type": "dp",
       "unit": "\u0431\u0430\u0440",
@@ -6126,30 +6028,37 @@ var PLANT_SPEC = {
     },
     {
       "color": 9807270,
-      "connectionId": "\u041a\u041f-L-013",
-      "id": "\u041a\u041f-HV-013",
-      "label": "\u041e\u0442\u0441\u0435\u0447\u043d\u043e\u0439 \u043a\u0440\u0430\u043d \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0439 \u043b\u0438\u043d\u0438\u0438 \u043a\u0430\u0440\u0442\u0440\u0438\u0434\u0436\u0435\u0439, \u043d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u043e \u0437\u0430\u043a\u0440\u044b\u0442",
-      "opening": 0.0,
-      "position": 0.6226,
+      "connectionId": "\u041a\u041f-L-011",
+      "id": "\u041a\u041f-PDIT-013",
+      "jitter": 0.0,
+      "label": "\u0422\u0440\u0430\u043d\u0441\u043c\u0435\u043c\u0431\u0440\u0430\u043d\u043d\u043e\u0435 \u0434\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u0423\u0424-1: \u0440\u043e\u0441\u0442 \u2014 \u0441\u0438\u0433\u043d\u0430\u043b \u043d\u0430 \u043e\u0431\u0440\u0430\u0442\u043d\u0443\u044e \u043f\u0440\u043e\u043c\u044b\u0432\u043a\u0443",
+      "mount": "frame",
+      "offset": [
+        0.0,
+        0.3,
+        0.0
+      ],
+      "position": 0.7206,
       "size": 0.375,
-      "type": "handvalve"
-    },
-    {
-      "color": 9807270,
-      "connectionId": "\u041a\u041f-L-015",
-      "id": "\u041a\u041f-HV-015",
-      "label": "\u041e\u0442\u0441\u0435\u0447\u043d\u043e\u0439 \u043a\u0440\u0430\u043d \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0439 \u043b\u0438\u043d\u0438\u0438 \u043a\u0430\u0440\u0442\u0440\u0438\u0434\u0436\u0435\u0439, \u043d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u043e \u0437\u0430\u043a\u0440\u044b\u0442",
-      "opening": 0.0,
-      "position": 0.3243,
-      "size": 0.375,
-      "type": "handvalve"
+      "standHeight": 0.0,
+      "tapHigh": {
+        "connectionId": "\u041a\u041f-L-011",
+        "position": 0.7508
+      },
+      "tapLow": {
+        "connectionId": "\u041a\u041f-L-017",
+        "position": 0.0686
+      },
+      "type": "dp",
+      "unit": "\u0431\u0430\u0440",
+      "value": 0.4
     },
     {
       "color": 9807270,
       "connectionId": "\u041a\u041f-L-017",
       "id": "\u041a\u041f-FIT-018",
       "jitter": 0.0,
-      "position": 0.093,
+      "position": 0.5778,
       "readout": false,
       "size": 0.375,
       "type": "flowmeter",
@@ -6162,11 +6071,21 @@ var PLANT_SPEC = {
       "id": "\u041a\u041f-TIT-019",
       "jitter": 0.0,
       "label": "\u0422\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u0430 \u0440\u0430\u0441\u0441\u043e\u043b\u0430 \u043f\u043e\u0441\u043b\u0435 \u0444\u0438\u043b\u044c\u0442\u0440\u043e\u0432; \u0440\u0430\u0441\u0447\u0451\u0442\u043d\u044b\u0439 \u0434\u0438\u0430\u043f\u0430\u0437\u043e\u043d 15\u201340 \u00b0C",
-      "position": 0.1462,
+      "position": 0.6569,
       "size": 0.375,
       "type": "temperature",
       "unit": "\u00b0C",
       "value": 25.0
+    },
+    {
+      "color": 9807270,
+      "connectionId": "\u041a\u041f-L-014",
+      "id": "\u041a\u041f-XV-015",
+      "label": "\u041a\u043b\u0430\u043f\u0430\u043d \u0441\u0431\u0440\u043e\u0441\u0430 \u043e\u0431\u0440\u0430\u0442\u043d\u043e\u0439 \u043f\u0440\u043e\u043c\u044b\u0432\u043a\u0438 \u0423\u0424-1: \u043d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u043e \u0437\u0430\u043a\u0440\u044b\u0442, \u043e\u0442\u043a\u0440\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u043d\u0430 \u043f\u0440\u043e\u043c\u044b\u0432\u043a\u0443",
+      "position": 0.3593,
+      "size": 0.375,
+      "state": "open",
+      "type": "valve"
     },
     {
       "color": 9807270,
@@ -6315,10 +6234,9 @@ var PLANT_SPEC = {
             "\u041a\u041f-L-001",
             "\u041a\u041f-L-002",
             "\u041a\u041f-L-006",
-            "\u041a\u041f-L-017",
             "\u041a\u041f-L-010",
             "\u041a\u041f-L-011",
-            "\u041a\u041f-L-012",
+            "\u041a\u041f-L-017",
             "\u041a\u041f-L-030"
           ],
           "counter": {
@@ -6971,7 +6889,392 @@ var PLANT_SPEC = {
         ]
       }
     },
-    "guide": null,
+    "guide": {
+      "steps": [
+        {
+          "body": {
+            "en": "The brine hose from the intake plugs into the camlock of \u041a\u041f-\u0412\u041f-01, flush with the container wall. From here the brine runs one way only \u2014 through the pump, three filters and the ultrafiltration \u2014 into the columns.",
+            "ru": "\u0420\u0443\u043a\u0430\u0432 \u043e\u0442 \u0432\u043e\u0434\u043e\u0437\u0430\u0431\u043e\u0440\u0430 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0430\u0435\u0442\u0441\u044f \u043a \u043a\u0430\u043c\u043b\u043e\u043a\u0443 \u041a\u041f-\u0412\u041f-01 \u0432\u0440\u043e\u0432\u0435\u043d\u044c \u0441\u043e \u0441\u0442\u0435\u043d\u043e\u0439 \u043a\u043e\u043d\u0442\u0435\u0439\u043d\u0435\u0440\u0430. \u041e\u0442\u0441\u044e\u0434\u0430 \u0440\u0430\u0441\u0441\u043e\u043b \u0438\u0434\u0451\u0442 \u043e\u0434\u043d\u043e\u0439 \u0434\u043e\u0440\u043e\u0433\u043e\u0439 \u2014 \u0447\u0435\u0440\u0435\u0437 \u043d\u0430\u0441\u043e\u0441, \u0442\u0440\u0438 \u0444\u0438\u043b\u044c\u0442\u0440\u0430 \u0438 \u0443\u043b\u044c\u0442\u0440\u0430\u0444\u0438\u043b\u044c\u0442\u0440\u0430\u0446\u0438\u044e \u2014 \u0432 \u043a\u043e\u043b\u043e\u043d\u043d\u044b."
+          },
+          "camera": {
+            "position": [
+              -1.5,
+              1.5,
+              0.6
+            ],
+            "target": [
+              -2.65,
+              0.45,
+              -1.0
+            ]
+          },
+          "connections": [
+            "\u041a\u041f-L-001"
+          ],
+          "flows": [
+            {
+              "at": 0.5,
+              "connectionId": "\u041a\u041f-L-001",
+              "text": {
+                "en": "brine from outside",
+                "ru": "\u0440\u0430\u0441\u0441\u043e\u043b \u0441\u043d\u0430\u0440\u0443\u0436\u0438"
+              }
+            }
+          ],
+          "focus": [
+            "\u041a\u041f-\u0412\u041f-01"
+          ],
+          "id": "brine-in",
+          "lanes": null,
+          "marker": "\u041a\u041f-\u0412\u041f-01",
+          "pair": {
+            "equipment": "\u041a\u041f-\u041a-1",
+            "pair": 1
+          },
+          "time": 0.5,
+          "title": {
+            "en": "1. Brine in from outside",
+            "ru": "1. \u0412\u0432\u043e\u0434 \u0440\u0430\u0441\u0441\u043e\u043b\u0430 \u0441\u043d\u0430\u0440\u0443\u0436\u0438"
+          }
+        },
+        {
+          "body": {
+            "en": "Centrifugal pump inside the container, up to 40 m\u00b3/h: up to three columns on brine plus the flush of \u0424-1. A PSV and a pressure transmitter sit on the discharge.",
+            "ru": "\u0426\u0435\u043d\u0442\u0440\u043e\u0431\u0435\u0436\u043d\u044b\u0439 \u043d\u0430\u0441\u043e\u0441 \u0432 \u043a\u043e\u043d\u0442\u0435\u0439\u043d\u0435\u0440\u0435, \u0434\u043e 40 \u043c\u00b3/\u0447: \u0434\u043e \u0442\u0440\u0451\u0445 \u043a\u043e\u043b\u043e\u043d\u043d \u043d\u0430 \u0440\u0430\u0441\u0441\u043e\u043b\u0435 \u043f\u043b\u044e\u0441 \u043f\u0440\u043e\u043c\u044b\u0432\u043a\u0430 \u0424-1. \u041d\u0430 \u043d\u0430\u043f\u043e\u0440\u0435 \u2014 \u043f\u0440\u0435\u0434\u043e\u0445\u0440\u0430\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u043a\u043b\u0430\u043f\u0430\u043d \u0438 \u0434\u0430\u0442\u0447\u0438\u043a \u0434\u0430\u0432\u043b\u0435\u043d\u0438\u044f."
+          },
+          "camera": {
+            "position": [
+              -1.4,
+              1.9,
+              1.3
+            ],
+            "target": [
+              -2.6,
+              0.7,
+              -0.45
+            ]
+          },
+          "connections": [
+            "\u041a\u041f-L-001",
+            "\u041a\u041f-L-002"
+          ],
+          "flows": [
+            {
+              "at": 0.55,
+              "connectionId": "\u041a\u041f-L-002",
+              "text": {
+                "en": "to \u0424-1",
+                "ru": "\u043a \u0424-1"
+              }
+            }
+          ],
+          "focus": [
+            "\u041a\u041f-\u041d-1"
+          ],
+          "id": "pump",
+          "lanes": null,
+          "marker": "\u041a\u041f-\u041d-1",
+          "pair": {
+            "equipment": "\u041a\u041f-\u041a-1",
+            "pair": 1
+          },
+          "time": 0.5,
+          "title": {
+            "en": "2. Brine pump \u041a\u041f-\u041d-1",
+            "ru": "2. \u041d\u0430\u0441\u043e\u0441 \u0440\u0430\u0441\u0441\u043e\u043b\u0430 \u041a\u041f-\u041d-1"
+          }
+        },
+        {
+          "body": {
+            "en": "Screen 100 \u00b5m in a polymer housing. A high \u0394P starts the flush; the flush water goes out through \u041a\u041f-\u0412\u041f-02 while the brine keeps flowing.",
+            "ru": "\u0421\u0435\u0442\u043a\u0430 100 \u043c\u043a\u043c \u0432 \u043f\u043e\u043b\u0438\u043c\u0435\u0440\u043d\u043e\u043c \u043a\u043e\u0440\u043f\u0443\u0441\u0435. \u0412\u044b\u0441\u043e\u043a\u0438\u0439 \u0394P \u0437\u0430\u043f\u0443\u0441\u043a\u0430\u0435\u0442 \u043f\u0440\u043e\u043c\u044b\u0432\u043a\u0443; \u043f\u0440\u043e\u043c\u044b\u0432\u043a\u0430 \u0443\u0445\u043e\u0434\u0438\u0442 \u043d\u0430\u0440\u0443\u0436\u0443 \u0447\u0435\u0440\u0435\u0437 \u041a\u041f-\u0412\u041f-02, \u043f\u043e\u0434\u0430\u0447\u0430 \u0440\u0430\u0441\u0441\u043e\u043b\u0430 \u043d\u0435 \u043f\u0440\u0435\u0440\u044b\u0432\u0430\u0435\u0442\u0441\u044f."
+          },
+          "camera": {
+            "position": [
+              -0.9,
+              1.7,
+              1.0
+            ],
+            "target": [
+              -1.72,
+              0.75,
+              -0.55
+            ]
+          },
+          "connections": [
+            "\u041a\u041f-L-002",
+            "\u041a\u041f-L-006"
+          ],
+          "flows": [
+            {
+              "at": 0.3,
+              "connectionId": "\u041a\u041f-L-006",
+              "text": {
+                "en": "after 100 \u00b5m \u2192 \u0424-2",
+                "ru": "\u043f\u043e\u0441\u043b\u0435 100 \u043c\u043a\u043c \u2192 \u0424-2"
+              }
+            }
+          ],
+          "focus": [
+            "\u041a\u041f-\u0424-1"
+          ],
+          "id": "f1",
+          "lanes": null,
+          "marker": "\u041a\u041f-\u0424-1",
+          "pair": {
+            "equipment": "\u041a\u041f-\u041a-1",
+            "pair": 1
+          },
+          "time": 0.5,
+          "title": {
+            "en": "3. Stage 1 \u2014 self-cleaning filter, 100 \u00b5m",
+            "ru": "3. \u0421\u0442\u0443\u043f\u0435\u043d\u044c 1 \u2014 \u0441\u0430\u043c\u043e\u043e\u0447\u0438\u0449\u0430\u044e\u0449\u0438\u0439\u0441\u044f \u0444\u0438\u043b\u044c\u0442\u0440, 100 \u043c\u043a\u043c"
+          }
+        },
+        {
+          "body": {
+            "en": "The brine crosses over the aisle and drops into \u0424-2: seven 10 \u00b5m cartridges in a polymer housing. PDIT-016 reads the \u0394P of both cartridge stages.",
+            "ru": "\u0420\u0430\u0441\u0441\u043e\u043b \u043f\u0435\u0440\u0435\u0445\u043e\u0434\u0438\u0442 \u043f\u043e\u0432\u0435\u0440\u0445\u0443 \u0438 \u043e\u043f\u0443\u0441\u043a\u0430\u0435\u0442\u0441\u044f \u0432 \u0424-2: \u0441\u0435\u043c\u044c \u043a\u0430\u0440\u0442\u0440\u0438\u0434\u0436\u0435\u0439 10 \u043c\u043a\u043c \u0432 \u043f\u043e\u043b\u0438\u043c\u0435\u0440\u043d\u043e\u043c \u043a\u043e\u0440\u043f\u0443\u0441\u0435. PDIT-016 \u043f\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u0442 \u0394P \u043e\u0431\u0435\u0438\u0445 \u043a\u0430\u0440\u0442\u0440\u0438\u0434\u0436\u043d\u044b\u0445 \u0441\u0442\u0443\u043f\u0435\u043d\u0435\u0439."
+          },
+          "camera": {
+            "position": [
+              -0.8,
+              1.6,
+              2.5
+            ],
+            "target": [
+              -1.45,
+              0.9,
+              0.93
+            ]
+          },
+          "connections": [
+            "\u041a\u041f-L-006",
+            "\u041a\u041f-L-010"
+          ],
+          "flows": [
+            {
+              "at": 0.5,
+              "connectionId": "\u041a\u041f-L-010",
+              "text": {
+                "en": "after 10 \u00b5m \u2192 \u0424-3",
+                "ru": "\u043f\u043e\u0441\u043b\u0435 10 \u043c\u043a\u043c \u2192 \u0424-3"
+              }
+            }
+          ],
+          "focus": [
+            "\u041a\u041f-\u0424-2"
+          ],
+          "id": "f2",
+          "lanes": null,
+          "marker": "\u041a\u041f-\u0424-2",
+          "pair": {
+            "equipment": "\u041a\u041f-\u041a-1",
+            "pair": 1
+          },
+          "time": 0.5,
+          "title": {
+            "en": "4. Stage 2 \u2014 cartridge filter, 10 \u00b5m",
+            "ru": "4. \u0421\u0442\u0443\u043f\u0435\u043d\u044c 2 \u2014 \u043a\u0430\u0440\u0442\u0440\u0438\u0434\u0436\u043d\u044b\u0439 \u0444\u0438\u043b\u044c\u0442\u0440, 10 \u043c\u043a\u043c"
+          }
+        },
+        {
+          "body": {
+            "en": "\u0424-3 right after \u0424-2, in series: 1 \u00b5m cartridges. The line then turns back toward the ultrafiltration.",
+            "ru": "\u0424-3 \u0441\u0440\u0430\u0437\u0443 \u0437\u0430 \u0424-2, \u043f\u043e\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u043e: \u043a\u0430\u0440\u0442\u0440\u0438\u0434\u0436\u0438 1 \u043c\u043a\u043c. \u0414\u0430\u043b\u044c\u0448\u0435 \u043b\u0438\u043d\u0438\u044f \u0440\u0430\u0437\u0432\u043e\u0440\u0430\u0447\u0438\u0432\u0430\u0435\u0442\u0441\u044f \u043a \u0443\u043b\u044c\u0442\u0440\u0430\u0444\u0438\u043b\u044c\u0442\u0440\u0430\u0446\u0438\u0438."
+          },
+          "camera": {
+            "position": [
+              -1.3,
+              1.6,
+              2.6
+            ],
+            "target": [
+              -2.05,
+              0.9,
+              0.93
+            ]
+          },
+          "connections": [
+            "\u041a\u041f-L-010",
+            "\u041a\u041f-L-011"
+          ],
+          "flows": [
+            {
+              "at": 0.6,
+              "connectionId": "\u041a\u041f-L-011",
+              "text": {
+                "en": "after 1 \u00b5m \u2192 UF",
+                "ru": "\u043f\u043e\u0441\u043b\u0435 1 \u043c\u043a\u043c \u2192 \u0423\u0424"
+              }
+            }
+          ],
+          "focus": [
+            "\u041a\u041f-\u0424-3"
+          ],
+          "id": "f3",
+          "lanes": null,
+          "marker": "\u041a\u041f-\u0424-3",
+          "pair": {
+            "equipment": "\u041a\u041f-\u041a-1",
+            "pair": 1
+          },
+          "time": 0.5,
+          "title": {
+            "en": "5. Stage 3 \u2014 cartridge filter, 1 \u00b5m",
+            "ru": "5. \u0421\u0442\u0443\u043f\u0435\u043d\u044c 3 \u2014 \u043a\u0430\u0440\u0442\u0440\u0438\u0434\u0436\u043d\u044b\u0439 \u0444\u0438\u043b\u044c\u0442\u0440, 1 \u043c\u043a\u043c"
+          }
+        },
+        {
+          "body": {
+            "en": "Feed from below into four hollow-fibre modules, filtrate from the top caps. PDIT-013 reads the transmembrane pressure; the backwash goes out through XV-015 and \u041a\u041f-\u0412\u041f-12.",
+            "ru": "\u041f\u043e\u0434\u0430\u0447\u0430 \u0441\u043d\u0438\u0437\u0443 \u0432 \u0447\u0435\u0442\u044b\u0440\u0435 \u043f\u043e\u043b\u043e\u0432\u043e\u043b\u043e\u043a\u043e\u043d\u043d\u044b\u0445 \u043c\u043e\u0434\u0443\u043b\u044f, \u0444\u0438\u043b\u044c\u0442\u0440\u0430\u0442 \u2014 \u0438\u0437 \u0432\u0435\u0440\u0445\u043d\u0438\u0445 \u043a\u0440\u044b\u0448\u0435\u043a. PDIT-013 \u043f\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u0442 \u0442\u0440\u0430\u043d\u0441\u043c\u0435\u043c\u0431\u0440\u0430\u043d\u043d\u043e\u0435 \u0434\u0430\u0432\u043b\u0435\u043d\u0438\u0435; \u043e\u0431\u0440\u0430\u0442\u043d\u0430\u044f \u043f\u0440\u043e\u043c\u044b\u0432\u043a\u0430 \u2014 \u043d\u0430\u0440\u0443\u0436\u0443 \u0447\u0435\u0440\u0435\u0437 XV-015 \u0438 \u041a\u041f-\u0412\u041f-12."
+          },
+          "camera": {
+            "position": [
+              -0.5,
+              1.9,
+              2.6
+            ],
+            "target": [
+              -1.73,
+              1.3,
+              0.55
+            ]
+          },
+          "connections": [
+            "\u041a\u041f-L-011",
+            "\u041a\u041f-L-017"
+          ],
+          "flows": [
+            {
+              "at": 0.45,
+              "connectionId": "\u041a\u041f-L-017",
+              "text": {
+                "en": "UF filtrate \u2192 \u041a\u041b-01",
+                "ru": "\u0444\u0438\u043b\u044c\u0442\u0440\u0430\u0442 \u0423\u0424 \u2192 \u041a\u041b-01"
+              }
+            }
+          ],
+          "focus": [
+            "\u041a\u041f-\u0423\u0424-1"
+          ],
+          "id": "uf",
+          "lanes": null,
+          "marker": "\u041a\u041f-\u0423\u0424-1",
+          "pair": {
+            "equipment": "\u041a\u041f-\u041a-1",
+            "pair": 1
+          },
+          "time": 0.5,
+          "title": {
+            "en": "6. Stage 4 \u2014 ultrafiltration",
+            "ru": "6. \u0421\u0442\u0443\u043f\u0435\u043d\u044c 4 \u2014 \u0443\u043b\u044c\u0442\u0440\u0430\u0444\u0438\u043b\u044c\u0442\u0440\u0430\u0446\u0438\u044f"
+          }
+        },
+        {
+          "body": {
+            "en": "The filtrate runs overhead into header \u041a\u041f-\u041a\u041b-01; each column takes its brine through its own valve XV-k01 \u2014 9.9 m\u00b3/h per column on sorption.",
+            "ru": "\u0424\u0438\u043b\u044c\u0442\u0440\u0430\u0442 \u043f\u043e\u0432\u0435\u0440\u0445\u0443 \u043f\u0440\u0438\u0445\u043e\u0434\u0438\u0442 \u0432 \u043a\u043e\u043b\u043b\u0435\u043a\u0442\u043e\u0440 \u041a\u041f-\u041a\u041b-01; \u043a\u0430\u0436\u0434\u0430\u044f \u043a\u043e\u043b\u043e\u043d\u043d\u0430 \u0431\u0435\u0440\u0451\u0442 \u0440\u0430\u0441\u0441\u043e\u043b \u0447\u0435\u0440\u0435\u0437 \u0441\u0432\u043e\u0439 \u043a\u043b\u0430\u043f\u0430\u043d XV-k01 \u2014 9.9 \u043c\u00b3/\u0447 \u043d\u0430 \u043a\u043e\u043b\u043e\u043d\u043d\u0443 \u043d\u0430 \u0441\u043e\u0440\u0431\u0446\u0438\u0438."
+          },
+          "camera": {
+            "position": [
+              1.2,
+              2.4,
+              2.3
+            ],
+            "target": [
+              1.0,
+              1.4,
+              -0.6
+            ]
+          },
+          "connections": [
+            "\u041a\u041f-L-017",
+            "\u041a\u041f-L-101",
+            "\u041a\u041f-L-110",
+            "\u041a\u041f-L-111"
+          ],
+          "flows": [
+            {
+              "at": 0.6,
+              "connectionId": "\u041a\u041f-L-101",
+              "text": {
+                "en": "9.9 m\u00b3/h into \u041a-1",
+                "ru": "9.9 \u043c\u00b3/\u0447 \u0432 \u041a-1"
+              }
+            }
+          ],
+          "focus": [
+            "\u041a\u041f-\u041a\u041b-01",
+            "\u041a\u041f-\u041a-1",
+            "\u041a\u041f-\u041a-2",
+            "\u041a\u041f-\u041a-3",
+            "\u041a\u041f-\u041a-4"
+          ],
+          "id": "columns",
+          "lanes": null,
+          "marker": "\u041a\u041f-\u041a\u041b-01",
+          "pair": {
+            "equipment": "\u041a\u041f-\u041a-1",
+            "pair": 1
+          },
+          "time": 0.5,
+          "title": {
+            "en": "7. Brine header and the columns",
+            "ru": "7. \u041a\u043e\u043b\u043b\u0435\u043a\u0442\u043e\u0440 \u0440\u0430\u0441\u0441\u043e\u043b\u0430 \u0438 \u043a\u043e\u043b\u043e\u043d\u043d\u044b"
+          }
+        },
+        {
+          "body": {
+            "en": "Out of the columns the spent brine (violet) collects in header \u041a\u041f-\u041a\u041b-06 and leaves through \u041a\u041f-\u0412\u041f-03 at the doors. Violet lines are never the feed brine.",
+            "ru": "\u041f\u043e\u0441\u043b\u0435 \u043a\u043e\u043b\u043e\u043d\u043d \u043e\u0442\u0440\u0430\u0431\u043e\u0442\u0430\u043d\u043d\u044b\u0439 \u0440\u0430\u0441\u0441\u043e\u043b (\u0444\u0438\u043e\u043b\u0435\u0442\u043e\u0432\u044b\u0439) \u0441\u043e\u0431\u0438\u0440\u0430\u0435\u0442\u0441\u044f \u0432 \u043a\u043e\u043b\u043b\u0435\u043a\u0442\u043e\u0440 \u041a\u041f-\u041a\u041b-06 \u0438 \u0443\u0445\u043e\u0434\u0438\u0442 \u0447\u0435\u0440\u0435\u0437 \u041a\u041f-\u0412\u041f-03 \u0443 \u0434\u0432\u0435\u0440\u0435\u0439. \u0424\u0438\u043e\u043b\u0435\u0442\u043e\u0432\u044b\u0435 \u043b\u0438\u043d\u0438\u0438 \u2014 \u043d\u0438\u043a\u043e\u0433\u0434\u0430 \u043d\u0435 \u0438\u0441\u0445\u043e\u0434\u043d\u044b\u0439 \u0440\u0430\u0441\u0441\u043e\u043b."
+          },
+          "camera": {
+            "position": [
+              3.6,
+              1.7,
+              1.2
+            ],
+            "target": [
+              2.3,
+              0.6,
+              -0.9
+            ]
+          },
+          "connections": [
+            "\u041a\u041f-L-112",
+            "\u041a\u041f-L-030"
+          ],
+          "flows": [
+            {
+              "at": 0.5,
+              "connectionId": "\u041a\u041f-L-030",
+              "text": {
+                "en": "spent brine out",
+                "ru": "\u043e\u0442\u0440\u0430\u0431\u043e\u0442\u0430\u043d\u043d\u044b\u0439 \u0440\u0430\u0441\u0441\u043e\u043b \u043d\u0430\u0440\u0443\u0436\u0443"
+              }
+            }
+          ],
+          "focus": [
+            "\u041a\u041f-\u041a\u041b-06",
+            "\u041a\u041f-\u0412\u041f-03"
+          ],
+          "id": "raffinate",
+          "lanes": null,
+          "marker": "\u041a\u041f-\u0412\u041f-03",
+          "pair": {
+            "equipment": "\u041a\u041f-\u041a-1",
+            "pair": 1
+          },
+          "time": 0.5,
+          "title": {
+            "en": "8. Spent brine out",
+            "ru": "8. \u041e\u0442\u0440\u0430\u0431\u043e\u0442\u0430\u043d\u043d\u044b\u0439 \u0440\u0430\u0441\u0441\u043e\u043b \u2014 \u043d\u0430\u0440\u0443\u0436\u0443"
+          }
+        }
+      ]
+    },
     "lang": "ru",
     "legend": {
       "collapsed": true,
@@ -6990,8 +7293,8 @@ var PLANT_SPEC = {
             },
             {
               "color": null,
-              "key": "\u041d / \u0424",
-              "text": "\u043d\u0430\u0441\u043e\u0441 \u0440\u0430\u0441\u0441\u043e\u043b\u0430 / \u0444\u0438\u043b\u044c\u0442\u0440\u044b: \u0424-1 \u0441\u0430\u043c\u043e\u043e\u0447\u0438\u0449\u0430\u044e\u0449\u0438\u0439\u0441\u044f, \u0424-2\u2026\u0424-5 \u043a\u0430\u0440\u0442\u0440\u0438\u0434\u0436\u043d\u044b\u0435"
+              "key": "\u041d / \u0424 / \u0423\u0424",
+              "text": "\u043d\u0430\u0441\u043e\u0441 \u0440\u0430\u0441\u0441\u043e\u043b\u0430 / \u0444\u0438\u043b\u044c\u0442\u0440\u044b: \u0424-1 \u0441\u0430\u043c\u043e\u043e\u0447\u0438\u0449\u0430\u044e\u0449\u0438\u0439\u0441\u044f, \u0424-2 \u0438 \u0424-3 \u043a\u0430\u0440\u0442\u0440\u0438\u0434\u0436\u043d\u044b\u0435 / \u0443\u043b\u044c\u0442\u0440\u0430\u0444\u0438\u043b\u044c\u0442\u0440\u0430\u0446\u0438\u044f"
             },
             {
               "color": null,
@@ -7064,9 +7367,64 @@ var PLANT_SPEC = {
         {
           "items": [
             {
+              "color": null,
+              "key": "1",
+              "text": "\u0412\u041f-01 \u2014 \u0432\u0432\u043e\u0434 \u0441\u043d\u0430\u0440\u0443\u0436\u0438 (\u0440\u0443\u043a\u0430\u0432 \u043e\u0442 \u0432\u043e\u0434\u043e\u0437\u0430\u0431\u043e\u0440\u0430), \u043a\u0430\u043c\u043b\u043e\u043a \u0432\u0440\u043e\u0432\u0435\u043d\u044c \u0441\u043e \u0441\u0442\u0435\u043d\u043e\u0439"
+            },
+            {
+              "color": null,
+              "key": "2",
+              "text": "\u041d-1 \u2014 \u043d\u0430\u0441\u043e\u0441 \u0440\u0430\u0441\u0441\u043e\u043b\u0430 \u0432 \u043a\u043e\u043d\u0442\u0435\u0439\u043d\u0435\u0440\u0435, 40 \u043c\u00b3/\u0447"
+            },
+            {
+              "color": null,
+              "key": "3",
+              "text": "\u0424-1 \u2014 \u0441\u0430\u043c\u043e\u043e\u0447\u0438\u0449\u0430\u044e\u0449\u0438\u0439\u0441\u044f \u0444\u0438\u043b\u044c\u0442\u0440 100 \u043c\u043a\u043c (\u0441\u0442\u0443\u043f\u0435\u043d\u044c 1)"
+            },
+            {
+              "color": null,
+              "key": "4",
+              "text": "\u0424-2 \u2014 \u043a\u0430\u0440\u0442\u0440\u0438\u0434\u0436\u043d\u044b\u0439 \u0444\u0438\u043b\u044c\u0442\u0440 10 \u043c\u043a\u043c (\u0441\u0442\u0443\u043f\u0435\u043d\u044c 2)"
+            },
+            {
+              "color": null,
+              "key": "5",
+              "text": "\u0424-3 \u2014 \u043a\u0430\u0440\u0442\u0440\u0438\u0434\u0436\u043d\u044b\u0439 \u0444\u0438\u043b\u044c\u0442\u0440 1 \u043c\u043a\u043c (\u0441\u0442\u0443\u043f\u0435\u043d\u044c 3)"
+            },
+            {
+              "color": null,
+              "key": "6",
+              "text": "\u0423\u0424-1 \u2014 \u0443\u043b\u044c\u0442\u0440\u0430\u0444\u0438\u043b\u044c\u0442\u0440\u0430\u0446\u0438\u044f (\u0441\u0442\u0443\u043f\u0435\u043d\u044c 4)"
+            },
+            {
+              "color": null,
+              "key": "7",
+              "text": "\u041a\u041b-01 \u2014 \u043a\u043e\u043b\u043b\u0435\u043a\u0442\u043e\u0440 \u0440\u0430\u0441\u0441\u043e\u043b\u0430 \u2192 XV-k01 \u2192 \u043a\u043e\u043b\u043e\u043d\u043d\u044b \u041a-1\u2026\u041a-4"
+            },
+            {
+              "color": null,
+              "key": "8",
+              "text": "\u043e\u0442\u0440\u0430\u0431\u043e\u0442\u0430\u043d\u043d\u044b\u0439 \u0440\u0430\u0441\u0441\u043e\u043b \u2192 \u041a\u041b-06 \u2192 \u0412\u041f-03 \u043d\u0430\u0440\u0443\u0436\u0443"
+            },
+            {
+              "color": null,
+              "key": "\u0433\u0438\u0434",
+              "text": "\u043a\u043d\u043e\u043f\u043a\u0430 \u00ab\u0413\u0438\u0434\u00bb \u043f\u0440\u043e\u0432\u043e\u0434\u0438\u0442 \u043f\u043e \u044d\u0442\u0438\u043c \u0448\u0430\u0433\u0430\u043c \u0441 \u043a\u0430\u043c\u0435\u0440\u043e\u0439 \u0438 \u043f\u043e\u0434\u043f\u0438\u0441\u044f\u043c\u0438 \u043d\u0430 \u0442\u0440\u0443\u0431\u0430\u0445"
+            }
+          ],
+          "title": "\u041f\u0443\u0442\u044c \u0440\u0430\u0441\u0441\u043e\u043b\u0430 \u2014 \u043f\u043e \u0448\u0430\u0433\u0430\u043c"
+        },
+        {
+          "items": [
+            {
               "color": 3050375,
               "key": "\u0440\u0430\u0441\u0441\u043e\u043b",
-              "text": "\u0440\u0430\u0441\u0441\u043e\u043b \u041c\u0451\u0440\u0442\u0432\u043e\u0433\u043e \u043c\u043e\u0440\u044f \u0438 \u043e\u0442\u0440\u0430\u0431\u043e\u0442\u0430\u043d\u043d\u044b\u0439 \u0440\u0430\u0441\u0441\u043e\u043b"
+              "text": "\u0438\u0441\u0445\u043e\u0434\u043d\u044b\u0439 \u0440\u0430\u0441\u0441\u043e\u043b: \u043e\u0442 \u0432\u0432\u043e\u0434\u0430 \u0412\u041f-01 \u0447\u0435\u0440\u0435\u0437 \u0444\u0438\u043b\u044c\u0442\u0440\u044b \u0438 \u0423\u0424 \u043a \u043a\u043e\u043b\u043e\u043d\u043d\u0430\u043c"
+            },
+            {
+              "color": 9334709,
+              "key": "\u043e\u0442\u0440\u0430\u0431.",
+              "text": "\u043e\u0442\u0440\u0430\u0431\u043e\u0442\u0430\u043d\u043d\u044b\u0439 \u0440\u0430\u0441\u0441\u043e\u043b \u0438 \u0441\u0431\u0440\u043e\u0441\u044b \u043f\u0440\u043e\u043c\u044b\u0432\u043e\u043a \u0424-1 \u0438 \u0423\u0424-1 \u2014 \u043d\u0430\u0440\u0443\u0436\u0443"
             },
             {
               "color": 9807270,
@@ -7228,16 +7586,22 @@ var PLANT_SPEC = {
         "title": "\u041d\u0430\u0441\u043e\u0441 \u0440\u0430\u0441\u0441\u043e\u043b\u0430 \u041a\u041f-\u041d-1"
       },
       {
-        "body": "\u041f\u043e\u043b\u0438\u043c\u0435\u0440\u043d\u044b\u0439 \u043a\u043e\u0440\u043f\u0443\u0441, \u0441\u0435\u0442\u043a\u0430 100 \u043c\u043a\u043c; \u043f\u0440\u043e\u043c\u044b\u0432\u043a\u0430 \u043f\u043e \u0394P (PDIT-003) \u2014 \u043d\u0430\u0440\u0443\u0436\u0443 \u0447\u0435\u0440\u0435\u0437 \u0432\u044b\u0432\u043e\u0434 \u041a\u041f-\u0412\u041f-02, \u043f\u043e\u0434\u0430\u0447\u0430 \u0440\u0430\u0441\u0441\u043e\u043b\u0430 \u043f\u0440\u0438 \u044d\u0442\u043e\u043c \u043f\u0440\u043e\u0434\u043e\u043b\u0436\u0430\u0435\u0442\u0441\u044f. \u0414\u0430\u043b\u044c\u0448\u0435 \u0434\u0432\u0435 \u0441\u0442\u0443\u043f\u0435\u043d\u0438 \u043a\u0430\u0440\u0442\u0440\u0438\u0434\u0436\u0435\u0439: 10 \u043c\u043a\u043c \u0438 1 \u043c\u043a\u043c.",
+        "body": "\u041f\u043e\u043b\u0438\u043c\u0435\u0440\u043d\u044b\u0439 \u043a\u043e\u0440\u043f\u0443\u0441, \u0441\u0435\u0442\u043a\u0430 100 \u043c\u043a\u043c; \u043f\u0440\u043e\u043c\u044b\u0432\u043a\u0430 \u043f\u043e \u0394P (PDIT-003) \u2014 \u043d\u0430\u0440\u0443\u0436\u0443 \u0447\u0435\u0440\u0435\u0437 \u0432\u044b\u0432\u043e\u0434 \u041a\u041f-\u0412\u041f-02, \u043f\u043e\u0434\u0430\u0447\u0430 \u0440\u0430\u0441\u0441\u043e\u043b\u0430 \u043f\u0440\u0438 \u044d\u0442\u043e\u043c \u043f\u0440\u043e\u0434\u043e\u043b\u0436\u0430\u0435\u0442\u0441\u044f. \u0421\u0442\u0443\u043f\u0435\u043d\u044c 1 \u0438\u0437 4; \u0434\u0430\u043b\u044c\u0448\u0435 \u2014 \u0424-2, \u0424-3, \u0423\u0424-1.",
         "equipmentId": "\u041a\u041f-\u0424-1",
         "status": "draft",
         "title": "\u0421\u0430\u043c\u043e\u043e\u0447\u0438\u0449\u0430\u044e\u0449\u0438\u0439\u0441\u044f \u0444\u0438\u043b\u044c\u0442\u0440 \u041a\u041f-\u0424-1"
       },
       {
-        "body": "\u041f\u043e\u043b\u0438\u043c\u0435\u0440\u043d\u044b\u0435 \u043a\u043e\u0440\u043f\u0443\u0441\u0430 (PP / \u0441\u0442\u0435\u043a\u043b\u043e\u043f\u043b\u0430\u0441\u0442\u0438\u043a), \u043f\u0430\u0442\u0440\u0443\u0431\u043a\u0438 \u0438 \u0444\u043b\u0430\u043d\u0446\u044b \u041f\u0412\u0425. \u0414\u0432\u0435 \u043b\u0438\u043d\u0438\u0438 \u043f\u043e \u0434\u0432\u0435 \u0441\u0442\u0443\u043f\u0435\u043d\u0438: \u0440\u0430\u0431\u043e\u0447\u0430\u044f \u0424-2 (10 \u043c\u043a\u043c) \u2192 \u0424-4 (1 \u043c\u043a\u043c), \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u0430\u044f \u0424-3 \u2192 \u0424-5. \u041f\u0435\u0440\u0435\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 \u2014 \u0440\u0443\u0447\u043d\u044b\u043c\u0438 \u043a\u0440\u0430\u043d\u0430\u043c\u0438 HV-010\u2026015; \u0394P \u0440\u0430\u0431\u043e\u0447\u0435\u0439 \u043b\u0438\u043d\u0438\u0438 \u2014 PDIT-016.",
+        "body": "\u0421\u0442\u0443\u043f\u0435\u043d\u0438 2 \u0438 3 \u0438\u0437 4, \u043f\u043e\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u043e: \u0424-2 \u2014 10 \u043c\u043a\u043c, \u0424-3 \u2014 1 \u043c\u043a\u043c. \u041f\u043e\u043b\u0438\u043c\u0435\u0440\u043d\u044b\u0435 \u043a\u043e\u0440\u043f\u0443\u0441\u0430 (PP / \u0441\u0442\u0435\u043a\u043b\u043e\u043f\u043b\u0430\u0441\u0442\u0438\u043a), \u043f\u0430\u0442\u0440\u0443\u0431\u043a\u0438 \u0438 \u0444\u043b\u0430\u043d\u0446\u044b \u041f\u0412\u0425. \u0394P \u043d\u0430 \u043e\u0431\u0435\u0438\u0445 \u0441\u0442\u0443\u043f\u0435\u043d\u044f\u0445 \u2014 PDIT-016; \u0437\u0430\u043c\u0435\u043d\u0430 \u043a\u0430\u0440\u0442\u0440\u0438\u0434\u0436\u0435\u0439 \u2014 \u043d\u0430 \u043e\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u043d\u043e\u0439 \u043b\u0438\u043d\u0438\u0438 (\u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0439 \u043b\u0438\u043d\u0438\u0438 \u043d\u0435\u0442).",
         "equipmentId": "\u041a\u041f-\u0424-2",
         "status": "draft",
-        "title": "\u041a\u0430\u0440\u0442\u0440\u0438\u0434\u0436\u043d\u044b\u0435 \u0444\u0438\u043b\u044c\u0442\u0440\u044b \u041a\u041f-\u0424-2\u2026\u0424-5"
+        "title": "\u041a\u0430\u0440\u0442\u0440\u0438\u0434\u0436\u043d\u044b\u0435 \u0444\u0438\u043b\u044c\u0442\u0440\u044b \u041a\u041f-\u0424-2 \u0438 \u041a\u041f-\u0424-3"
+      },
+      {
+        "body": "\u0421\u0442\u0443\u043f\u0435\u043d\u044c 4 \u0438\u0437 4 \u2014 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u044f\u044f \u043f\u0435\u0440\u0435\u0434 \u0441\u043e\u0440\u0431\u0435\u043d\u0442\u043e\u043c. 4 \u043f\u043e\u043b\u043e\u0432\u043e\u043b\u043e\u043a\u043e\u043d\u043d\u044b\u0445 \u043c\u043e\u0434\u0443\u043b\u044f \u043f\u043e \u224880 \u043c\u00b2: \u043f\u043e\u0434\u0430\u0447\u0430 \u0441\u043d\u0438\u0437\u0443, \u0444\u0438\u043b\u044c\u0442\u0440\u0430\u0442 \u0441\u0432\u0435\u0440\u0445\u0443 \u2014 \u043a \u043a\u043e\u043b\u043b\u0435\u043a\u0442\u043e\u0440\u0443 \u041a\u041f-\u041a\u041b-01. \u0422\u0440\u0430\u043d\u0441\u043c\u0435\u043c\u0431\u0440\u0430\u043d\u043d\u043e\u0435 \u0434\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u2014 PDIT-013; \u043e\u0431\u0440\u0430\u0442\u043d\u0430\u044f \u043f\u0440\u043e\u043c\u044b\u0432\u043a\u0430 \u0441\u0431\u0440\u0430\u0441\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u043d\u0430\u0440\u0443\u0436\u0443 \u0447\u0435\u0440\u0435\u0437 XV-015 \u0438 \u0432\u044b\u0432\u043e\u0434 \u041a\u041f-\u0412\u041f-12.<br>\u0427\u0438\u0441\u043b\u043e \u043c\u043e\u0434\u0443\u043b\u0435\u0439 \u0438 \u0441\u0445\u0435\u043c\u0430 \u043f\u0440\u043e\u043c\u044b\u0432\u043a\u0438 \u2014 \u0434\u043e\u043f\u0443\u0449\u0435\u043d\u0438\u0435 \u0434\u043e \u0440\u0430\u0441\u0447\u0451\u0442\u0430.",
+        "equipmentId": "\u041a\u041f-\u0423\u0424-1",
+        "status": "draft",
+        "title": "\u0423\u043b\u044c\u0442\u0440\u0430\u0444\u0438\u043b\u044c\u0442\u0440\u0430\u0446\u0438\u044f \u041a\u041f-\u0423\u0424-1"
       },
       {
         "body": "\u041a\u043e\u043c\u043f\u0430\u043a\u0442\u043d\u044b\u0439 \u0431\u0435\u0437\u043c\u0430\u0441\u043b\u044f\u043d\u044b\u0439 \u043a\u043e\u043c\u043f\u0440\u0435\u0441\u0441\u043e\u0440 \u0441 \u043e\u0441\u0443\u0448\u0438\u0442\u0435\u043b\u0435\u043c \u0438 \u0440\u0435\u0441\u0438\u0432\u0435\u0440\u043e\u043c 20 \u043b: \u0432\u043e\u0437\u0434\u0443\u0445 \u043f\u0440\u043e\u0434\u0443\u0432\u043a\u0438 \u043a\u043e\u043b\u043e\u043d\u043d \u0447\u0435\u0440\u0435\u0437 \u0440\u0435\u0433\u0443\u043b\u044f\u0442\u043e\u0440 0,5 \u0431\u0430\u0440 (PCV-021) \u0438 \u0432\u043e\u0437\u0434\u0443\u0445 \u041a\u0418\u041f \u043d\u0430 \u043f\u043d\u0435\u0432\u043c\u043e\u043e\u0441\u0442\u0440\u043e\u0432 \u041a\u041f-\u041f\u041d-1.",
@@ -7479,6 +7843,14 @@ var PLANT_RU = {
     "полимерный (PP / стеклопластик), патрубки ПВХ — стали в контакте с рассолом нет",
   "Threaded-ring lid: the cartridges are changed with the housing isolated and drained":
     "Крышка на резьбовом кольце: картриджи меняют на отсечённом и опорожнённом корпусе",
+  // ultrafiltration.js
+  "Ultrafiltration": "Ультрафильтрация",
+  "hollow-fibre modules": "половолоконных модулей",
+  "Feed from below, filtrate from the top caps, backwash out through the side ports":
+    "Подача снизу, фильтрат — из верхних крышек, обратная промывка — через боковые штуцеры",
+  "Module": "Модуль",
+  "Membrane area": "Площадь мембран",
+  "Holds back suspended solids and colloids before the sorbent": "Задерживает взвесь и коллоиды перед сорбентом",
   "L": "л",
   "mm": "мм",
   "m³/h": "м³/ч"
@@ -7525,7 +7897,7 @@ function scrollFlow(tex, dt, speed, axis) {
 // placement. Used by stirred_reactor.js (and future archetypes). The defaults
 // are embedded as a JSON string + JSON.parse so the Python contract test can
 // extract and compare them verbatim (single source of shape, two runtimes).
-var ARCHETYPE_NOZZLES = JSON.parse('{"stirred_reactor":[{"id":"feed","mount":"top","height":0.5,"angle":0.0,"radial":0.6,"type":"feed"},{"id":"vent","mount":"top","height":0.5,"angle":180.0,"radial":0.6,"type":"vent"},{"id":"outlet","mount":"shell","height":0.15,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"jacketIn","mount":"shell","height":0.25,"angle":0.0,"radial":0.6,"type":"jacket"},{"id":"jacketOut","mount":"shell","height":0.75,"angle":0.0,"radial":0.6,"type":"jacket"}],"heat_exchanger":[{"id":"shellIn","mount":"shell","height":0.2,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"shellOut","mount":"shell","height":0.8,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"tubeIn","mount":"channelA","height":0.5,"angle":0.0,"radial":0.0,"type":"feed"},{"id":"tubeOut","mount":"channelB","height":0.5,"angle":0.0,"radial":0.0,"type":"outlet"}],"flow_reactor":[{"id":"feedIn1","mount":"channelB","height":0.5,"angle":235.0,"radial":0.5,"type":"feed"},{"id":"feedIn2","mount":"channelB","height":0.5,"angle":305.0,"radial":0.5,"type":"feed"},{"id":"productOut","mount":"channelA","height":0.5,"angle":90.0,"radial":0.5,"type":"outlet"},{"id":"jacketIn","mount":"shell","height":0.5,"angle":340.0,"radial":0.6,"type":"jacket"},{"id":"jacketOut","mount":"shell","height":0.5,"angle":20.0,"radial":0.6,"type":"jacket"}],"chiller":[{"id":"supply","mount":"top","height":0.5,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"return","mount":"top","height":0.5,"angle":0.0,"radial":0.6,"type":"feed"},{"id":"condenserIn","mount":"top","height":0.5,"angle":0.0,"radial":0.6,"type":"feed"},{"id":"condenserOut","mount":"top","height":0.5,"angle":0.0,"radial":0.6,"type":"outlet"}],"separator":[{"id":"feedIn","mount":"shell","height":0.55,"angle":0.0,"radial":0.6,"type":"feed"},{"id":"vaporOut","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"outlet"},{"id":"liquidOut","mount":"bottom","height":0.5,"angle":0.0,"radial":0.0,"type":"outlet"}],"nutsche_filter":[{"id":"slurryIn","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"feed"},{"id":"filtrateOut","mount":"shell","height":0.1,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"vacuumOut","mount":"shell","height":0.18,"angle":180.0,"radial":0.6,"type":"vent"}],"thickener":[{"id":"feedIn","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"feed"},{"id":"overflowOut","mount":"shell","height":0.95,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"underflowOut","mount":"bottom","height":0.5,"angle":0.0,"radial":0.0,"type":"outlet"}],"tank":[{"id":"inlet","mount":"top","height":0.5,"angle":0.0,"radial":0.6,"type":"feed"},{"id":"inlet2","mount":"top","height":0.5,"angle":180.0,"radial":0.6,"type":"feed"},{"id":"inlet3","mount":"top","height":0.5,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"outlet","mount":"bottom","height":0.5,"angle":0.0,"radial":0.0,"type":"outlet"}],"vacuum_pump":[{"id":"suction","mount":"shell","height":0.5,"angle":0.0,"radial":0.6,"type":"vent"}],"decanter_centrifuge":[{"id":"feedIn","mount":"channelA","height":0.5,"angle":0.0,"radial":0.0,"type":"feed"},{"id":"centrateOut","mount":"shell","height":0.85,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"solidsOut","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"outlet"}],"disc_stack_separator":[{"id":"feedIn","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"feed"},{"id":"clarifiedOut","mount":"top","height":0.5,"angle":0.0,"radial":0.55,"type":"outlet"},{"id":"solidsOut","mount":"bottom","height":0.5,"angle":0.0,"radial":0.0,"type":"outlet"}],"filter_press":[{"id":"slurryIn","mount":"channelA","height":0.5,"angle":0.0,"radial":0.0,"type":"feed"},{"id":"washIn","mount":"channelA","height":0.5,"angle":90.0,"radial":0.55,"type":"feed"},{"id":"filtrateOut","mount":"shell","height":0.5,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"cakeOut","mount":"shell","height":0.85,"angle":90.0,"radial":0.6,"type":"outlet"}],"gas_cylinder_bundle":[{"id":"gasOut","mount":"shell","height":0.9,"angle":0.0,"radial":0.6,"type":"outlet"}],"ion_exchange_column":[{"id":"feedIn","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"feed"},{"id":"treatedOut","mount":"bottom","height":0.5,"angle":0.0,"radial":0.0,"type":"outlet"},{"id":"regenIn","mount":"shell","height":0.85,"angle":90.0,"radial":0.6,"type":"feed"}],"reverse_osmosis":[{"id":"feedIn","mount":"shell","height":0.2,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"permeateOut","mount":"shell","height":0.5,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"concentrateOut","mount":"shell","height":0.85,"angle":90.0,"radial":0.6,"type":"outlet"}],"steam_generator":[{"id":"steamOut","mount":"top","height":0.5,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"condReturn","mount":"shell","height":0.6,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"feedwaterIn","mount":"shell","height":0.2,"angle":270.0,"radial":0.6,"type":"feed"}],"paddle_dryer":[{"id":"feedIn","mount":"shell","height":0.25,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"powderOut","mount":"shell","height":0.75,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"vaporOut","mount":"shell","height":0.55,"angle":90.0,"radial":0.6,"type":"vent"},{"id":"jacketIn","mount":"shell","height":0.3,"angle":0.0,"radial":0.6,"type":"jacket"},{"id":"jacketOut","mount":"shell","height":0.7,"angle":0.0,"radial":0.6,"type":"jacket"}],"radial_column":[{"id":"feedIn","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"feed"},{"id":"eluateOut","mount":"bottom","height":0.5,"angle":0.0,"radial":0.0,"type":"outlet"}],"ibc_container":[{"id":"fillTop","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"feed"},{"id":"valveOut","mount":"shell","height":0.12,"angle":270.0,"radial":0.6,"type":"outlet"}],"cooling_tower":[{"id":"hotWaterIn","mount":"shell","height":0.8,"angle":0.0,"radial":0.6,"type":"feed"},{"id":"coldWaterOut","mount":"shell","height":0.08,"angle":180.0,"radial":0.6,"type":"outlet"},{"id":"makeupIn","mount":"shell","height":0.15,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"blowdownOut","mount":"shell","height":0.02,"angle":270.0,"radial":0.6,"type":"outlet"}],"centrifugal_pump":[{"id":"suctionIn","mount":"shell","height":0.5,"angle":0.0,"radial":0.6,"type":"feed"},{"id":"dischargeOut","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"outlet"}],"coarse_filter":[{"id":"inlet","mount":"shell","height":0.5,"angle":180.0,"radial":0.6,"type":"feed"},{"id":"outlet","mount":"shell","height":0.5,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"drainOut","mount":"bottom","height":0.5,"angle":0.0,"radial":0.0,"type":"outlet"}],"silo":[{"id":"fillTop","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"feed"},{"id":"reagentOut","mount":"bottom","height":0.5,"angle":0.0,"radial":0.0,"type":"outlet"}],"dissolving_reactor":[{"id":"reagentIn","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"feed"},{"id":"waterIn","mount":"top","height":0.5,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"solutionOut","mount":"shell","height":0.12,"angle":0.0,"radial":0.6,"type":"outlet"}],"conveyor_furnace":[{"id":"feedIn","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"feed"},{"id":"productOut","mount":"bottom","height":0.5,"angle":0.0,"radial":0.0,"type":"outlet"},{"id":"vaporOut","mount":"top","height":0.5,"angle":180.0,"radial":0.0,"type":"vent"}],"belt_conveyor":[{"id":"feedIn","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"feed"},{"id":"dischargeOut","mount":"top","height":0.5,"angle":180.0,"radial":0.0,"type":"outlet"}],"vibro_screen":[{"id":"feedIn","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"feed"},{"id":"oversizeOut","mount":"shell","height":0.72,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"finesOut","mount":"shell","height":0.38,"angle":180.0,"radial":0.6,"type":"outlet"}],"box_bin":[{"id":"inlet","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"feed"}],"bipolar_ed":[{"id":"feedIn","mount":"shell","height":0.2,"angle":180.0,"radial":0.6,"type":"feed"},{"id":"acidOut","mount":"shell","height":0.5,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"baseOut","mount":"shell","height":0.5,"angle":270.0,"radial":0.6,"type":"outlet"}],"grinder":[{"id":"feedIn","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"feed"},{"id":"productOut","mount":"bottom","height":0.5,"angle":0.0,"radial":0.0,"type":"outlet"}],"nitrogen_generator":[{"id":"airIn","mount":"shell","height":0.5,"angle":180.0,"radial":0.6,"type":"feed"},{"id":"nitrogenOut","mount":"shell","height":0.8,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"ventOut","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"vent"}],"air_compressor":[{"id":"airOut","mount":"shell","height":0.75,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"instrumentAirOut","mount":"shell","height":0.55,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"condensateOut","mount":"shell","height":0.05,"angle":0.0,"radial":0.6,"type":"outlet"}],"pipe_tie_in":[{"id":"flangeOut","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"outlet"},{"id":"flangeIn","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"feed"}],"pipe_header":[{"id":"inlet","mount":"shell","height":0.5,"angle":180.0,"radial":0.6,"type":"feed"},{"id":"outlet","mount":"shell","height":0.5,"angle":180.0,"radial":0.6,"type":"outlet"},{"id":"branch1","mount":"shell","height":0.5,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"branch2","mount":"shell","height":0.5,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"branch3","mount":"shell","height":0.5,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"branch4","mount":"shell","height":0.5,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"branch5","mount":"shell","height":0.5,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"branch6","mount":"shell","height":0.5,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"branch7","mount":"shell","height":0.5,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"branch8","mount":"shell","height":0.5,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"branch9","mount":"shell","height":0.5,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"branch10","mount":"shell","height":0.5,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"branch11","mount":"shell","height":0.5,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"branch12","mount":"shell","height":0.5,"angle":90.0,"radial":0.6,"type":"outlet"}],"pipe_tee":[{"id":"runIn","mount":"shell","height":0.5,"angle":180.0,"radial":0.6,"type":"feed"},{"id":"runOut","mount":"shell","height":0.5,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"branch","mount":"shell","height":0.5,"angle":90.0,"radial":0.6,"type":"outlet"}],"valve_manifold":[{"id":"topIn","mount":"shell","height":0.85,"angle":180.0,"radial":0.6,"type":"feed"},{"id":"topOut","mount":"shell","height":0.85,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"botIn","mount":"shell","height":0.12,"angle":0.0,"radial":0.6,"type":"feed"},{"id":"botOut","mount":"shell","height":0.12,"angle":180.0,"radial":0.6,"type":"outlet"},{"id":"top1","mount":"top","height":0.5,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"top2","mount":"top","height":0.5,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"top3","mount":"top","height":0.5,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"top4","mount":"top","height":0.5,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"top5","mount":"top","height":0.5,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"top6","mount":"top","height":0.5,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"top7","mount":"top","height":0.5,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"top8","mount":"top","height":0.5,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"top9","mount":"top","height":0.5,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"top10","mount":"top","height":0.5,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"bot1","mount":"bottom","height":0.5,"angle":0.0,"radial":0.6,"type":"feed"},{"id":"bot2","mount":"bottom","height":0.5,"angle":0.0,"radial":0.6,"type":"feed"},{"id":"bot3","mount":"bottom","height":0.5,"angle":0.0,"radial":0.6,"type":"feed"},{"id":"bot4","mount":"bottom","height":0.5,"angle":0.0,"radial":0.6,"type":"feed"},{"id":"bot5","mount":"bottom","height":0.5,"angle":0.0,"radial":0.6,"type":"feed"},{"id":"bot6","mount":"bottom","height":0.5,"angle":0.0,"radial":0.6,"type":"feed"},{"id":"bot7","mount":"bottom","height":0.5,"angle":0.0,"radial":0.6,"type":"feed"},{"id":"bot8","mount":"bottom","height":0.5,"angle":0.0,"radial":0.6,"type":"feed"},{"id":"bot9","mount":"bottom","height":0.5,"angle":0.0,"radial":0.6,"type":"feed"},{"id":"bot10","mount":"bottom","height":0.5,"angle":0.0,"radial":0.6,"type":"feed"}],"valve_station":[{"id":"brineIn","mount":"shell","height":0.85,"angle":180.0,"radial":0.6,"type":"feed"},{"id":"serviceIn","mount":"shell","height":0.7,"angle":180.0,"radial":0.6,"type":"feed"},{"id":"eluateOut","mount":"shell","height":0.35,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"wasteOut","mount":"shell","height":0.25,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"drainOut","mount":"shell","height":0.15,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"ch1Out","mount":"shell","height":0.6,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"ch2Out","mount":"shell","height":0.6,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"ch3Out","mount":"shell","height":0.6,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"ch4Out","mount":"shell","height":0.6,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"ch5Out","mount":"shell","height":0.6,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"ch6Out","mount":"shell","height":0.6,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"ch7Out","mount":"shell","height":0.6,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"ch8Out","mount":"shell","height":0.6,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"ch9Out","mount":"shell","height":0.6,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"ch10Out","mount":"shell","height":0.6,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"ch1In","mount":"shell","height":0.4,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"ch2In","mount":"shell","height":0.4,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"ch3In","mount":"shell","height":0.4,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"ch4In","mount":"shell","height":0.4,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"ch5In","mount":"shell","height":0.4,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"ch6In","mount":"shell","height":0.4,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"ch7In","mount":"shell","height":0.4,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"ch8In","mount":"shell","height":0.4,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"ch9In","mount":"shell","height":0.4,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"ch10In","mount":"shell","height":0.4,"angle":270.0,"radial":0.6,"type":"feed"}],"leadlag_station":[{"id":"brineIn","mount":"shell","height":0.9,"angle":180.0,"radial":0.6,"type":"feed"},{"id":"waterIn","mount":"shell","height":0.8,"angle":180.0,"radial":0.6,"type":"feed"},{"id":"acidIn","mount":"shell","height":0.7,"angle":180.0,"radial":0.6,"type":"feed"},{"id":"raffinateOut","mount":"shell","height":0.45,"angle":180.0,"radial":0.6,"type":"outlet"},{"id":"eluateOut","mount":"shell","height":0.35,"angle":180.0,"radial":0.6,"type":"outlet"},{"id":"wasteOut","mount":"shell","height":0.25,"angle":180.0,"radial":0.6,"type":"outlet"},{"id":"naclIn","mount":"shell","height":0.6,"angle":180.0,"radial":0.6,"type":"feed"},{"id":"a1Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a1In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b1Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b1In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a2Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a2In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b2Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b2In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a3Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a3In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b3Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b3In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a4Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a4In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b4Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b4In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a5Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a5In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b5Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b5In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a6Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a6In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b6Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b6In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a7Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a7In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b7Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b7In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a8Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a8In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b8Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b8In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a9Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a9In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b9Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b9In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a10Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a10In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b10Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b10In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a11Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a11In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b11Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b11In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a12Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a12In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b12Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b12In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a13Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a13In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b13Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b13In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a14Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a14In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b14Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b14In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a15Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a15In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b15Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b15In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a16Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a16In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b16Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b16In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a17Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a17In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b17Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b17In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a18Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a18In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b18Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b18In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a19Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a19In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b19Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b19In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a20Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a20In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b20Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b20In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"}],"dosing_skid":[{"id":"lineIn","mount":"shell","height":0.35,"angle":180.0,"radial":0.6,"type":"feed"},{"id":"lineOut","mount":"shell","height":0.35,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"refillIn","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"feed"}],"control_cabinet":[{"id":"cableIn","mount":"shell","height":0.05,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"airIn","mount":"shell","height":0.1,"angle":180.0,"radial":0.6,"type":"feed"}],"nmr_analyser":[{"id":"feedIn","mount":"shell","height":0.3,"angle":180.0,"radial":0.6,"type":"feed"},{"id":"feedOut","mount":"shell","height":0.3,"angle":0.0,"radial":0.6,"type":"outlet"}],"pontoon":[{"id":"seaSuction","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"outlet"},{"id":"overboardA","mount":"top","height":0.5,"angle":0.0,"radial":0.6,"type":"feed"},{"id":"overboardB","mount":"top","height":0.5,"angle":180.0,"radial":0.6,"type":"feed"}],"pier":[],"skid_frame":[],"operator":[],"photo_panel":[],"leak_sensor":[],"shipping_container":[],"hvac_unit":[],"wall_penetration":[{"id":"inside","mount":"shell","height":0.5,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"outside","mount":"shell","height":0.5,"angle":270.0,"radial":0.6,"type":"outlet"}],"safety_shower":[{"id":"waterIn","mount":"shell","height":0.15,"angle":180.0,"radial":0.6,"type":"feed"}],"cartridge_filter":[{"id":"inlet","mount":"shell","height":0.5,"angle":180.0,"radial":0.6,"type":"feed"},{"id":"outlet","mount":"shell","height":0.5,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"drainOut","mount":"bottom","height":0.5,"angle":0.0,"radial":0.0,"type":"outlet"}]}');
+var ARCHETYPE_NOZZLES = JSON.parse('{"stirred_reactor":[{"id":"feed","mount":"top","height":0.5,"angle":0.0,"radial":0.6,"type":"feed"},{"id":"vent","mount":"top","height":0.5,"angle":180.0,"radial":0.6,"type":"vent"},{"id":"outlet","mount":"shell","height":0.15,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"jacketIn","mount":"shell","height":0.25,"angle":0.0,"radial":0.6,"type":"jacket"},{"id":"jacketOut","mount":"shell","height":0.75,"angle":0.0,"radial":0.6,"type":"jacket"}],"heat_exchanger":[{"id":"shellIn","mount":"shell","height":0.2,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"shellOut","mount":"shell","height":0.8,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"tubeIn","mount":"channelA","height":0.5,"angle":0.0,"radial":0.0,"type":"feed"},{"id":"tubeOut","mount":"channelB","height":0.5,"angle":0.0,"radial":0.0,"type":"outlet"}],"flow_reactor":[{"id":"feedIn1","mount":"channelB","height":0.5,"angle":235.0,"radial":0.5,"type":"feed"},{"id":"feedIn2","mount":"channelB","height":0.5,"angle":305.0,"radial":0.5,"type":"feed"},{"id":"productOut","mount":"channelA","height":0.5,"angle":90.0,"radial":0.5,"type":"outlet"},{"id":"jacketIn","mount":"shell","height":0.5,"angle":340.0,"radial":0.6,"type":"jacket"},{"id":"jacketOut","mount":"shell","height":0.5,"angle":20.0,"radial":0.6,"type":"jacket"}],"chiller":[{"id":"supply","mount":"top","height":0.5,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"return","mount":"top","height":0.5,"angle":0.0,"radial":0.6,"type":"feed"},{"id":"condenserIn","mount":"top","height":0.5,"angle":0.0,"radial":0.6,"type":"feed"},{"id":"condenserOut","mount":"top","height":0.5,"angle":0.0,"radial":0.6,"type":"outlet"}],"separator":[{"id":"feedIn","mount":"shell","height":0.55,"angle":0.0,"radial":0.6,"type":"feed"},{"id":"vaporOut","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"outlet"},{"id":"liquidOut","mount":"bottom","height":0.5,"angle":0.0,"radial":0.0,"type":"outlet"}],"nutsche_filter":[{"id":"slurryIn","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"feed"},{"id":"filtrateOut","mount":"shell","height":0.1,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"vacuumOut","mount":"shell","height":0.18,"angle":180.0,"radial":0.6,"type":"vent"}],"thickener":[{"id":"feedIn","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"feed"},{"id":"overflowOut","mount":"shell","height":0.95,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"underflowOut","mount":"bottom","height":0.5,"angle":0.0,"radial":0.0,"type":"outlet"}],"tank":[{"id":"inlet","mount":"top","height":0.5,"angle":0.0,"radial":0.6,"type":"feed"},{"id":"inlet2","mount":"top","height":0.5,"angle":180.0,"radial":0.6,"type":"feed"},{"id":"inlet3","mount":"top","height":0.5,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"outlet","mount":"bottom","height":0.5,"angle":0.0,"radial":0.0,"type":"outlet"}],"vacuum_pump":[{"id":"suction","mount":"shell","height":0.5,"angle":0.0,"radial":0.6,"type":"vent"}],"decanter_centrifuge":[{"id":"feedIn","mount":"channelA","height":0.5,"angle":0.0,"radial":0.0,"type":"feed"},{"id":"centrateOut","mount":"shell","height":0.85,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"solidsOut","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"outlet"}],"disc_stack_separator":[{"id":"feedIn","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"feed"},{"id":"clarifiedOut","mount":"top","height":0.5,"angle":0.0,"radial":0.55,"type":"outlet"},{"id":"solidsOut","mount":"bottom","height":0.5,"angle":0.0,"radial":0.0,"type":"outlet"}],"filter_press":[{"id":"slurryIn","mount":"channelA","height":0.5,"angle":0.0,"radial":0.0,"type":"feed"},{"id":"washIn","mount":"channelA","height":0.5,"angle":90.0,"radial":0.55,"type":"feed"},{"id":"filtrateOut","mount":"shell","height":0.5,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"cakeOut","mount":"shell","height":0.85,"angle":90.0,"radial":0.6,"type":"outlet"}],"gas_cylinder_bundle":[{"id":"gasOut","mount":"shell","height":0.9,"angle":0.0,"radial":0.6,"type":"outlet"}],"ion_exchange_column":[{"id":"feedIn","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"feed"},{"id":"treatedOut","mount":"bottom","height":0.5,"angle":0.0,"radial":0.0,"type":"outlet"},{"id":"regenIn","mount":"shell","height":0.85,"angle":90.0,"radial":0.6,"type":"feed"}],"reverse_osmosis":[{"id":"feedIn","mount":"shell","height":0.2,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"permeateOut","mount":"shell","height":0.5,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"concentrateOut","mount":"shell","height":0.85,"angle":90.0,"radial":0.6,"type":"outlet"}],"steam_generator":[{"id":"steamOut","mount":"top","height":0.5,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"condReturn","mount":"shell","height":0.6,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"feedwaterIn","mount":"shell","height":0.2,"angle":270.0,"radial":0.6,"type":"feed"}],"paddle_dryer":[{"id":"feedIn","mount":"shell","height":0.25,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"powderOut","mount":"shell","height":0.75,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"vaporOut","mount":"shell","height":0.55,"angle":90.0,"radial":0.6,"type":"vent"},{"id":"jacketIn","mount":"shell","height":0.3,"angle":0.0,"radial":0.6,"type":"jacket"},{"id":"jacketOut","mount":"shell","height":0.7,"angle":0.0,"radial":0.6,"type":"jacket"}],"radial_column":[{"id":"feedIn","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"feed"},{"id":"eluateOut","mount":"bottom","height":0.5,"angle":0.0,"radial":0.0,"type":"outlet"}],"ibc_container":[{"id":"fillTop","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"feed"},{"id":"valveOut","mount":"shell","height":0.12,"angle":270.0,"radial":0.6,"type":"outlet"}],"cooling_tower":[{"id":"hotWaterIn","mount":"shell","height":0.8,"angle":0.0,"radial":0.6,"type":"feed"},{"id":"coldWaterOut","mount":"shell","height":0.08,"angle":180.0,"radial":0.6,"type":"outlet"},{"id":"makeupIn","mount":"shell","height":0.15,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"blowdownOut","mount":"shell","height":0.02,"angle":270.0,"radial":0.6,"type":"outlet"}],"centrifugal_pump":[{"id":"suctionIn","mount":"shell","height":0.5,"angle":0.0,"radial":0.6,"type":"feed"},{"id":"dischargeOut","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"outlet"}],"coarse_filter":[{"id":"inlet","mount":"shell","height":0.5,"angle":180.0,"radial":0.6,"type":"feed"},{"id":"outlet","mount":"shell","height":0.5,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"drainOut","mount":"bottom","height":0.5,"angle":0.0,"radial":0.0,"type":"outlet"}],"silo":[{"id":"fillTop","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"feed"},{"id":"reagentOut","mount":"bottom","height":0.5,"angle":0.0,"radial":0.0,"type":"outlet"}],"dissolving_reactor":[{"id":"reagentIn","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"feed"},{"id":"waterIn","mount":"top","height":0.5,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"solutionOut","mount":"shell","height":0.12,"angle":0.0,"radial":0.6,"type":"outlet"}],"conveyor_furnace":[{"id":"feedIn","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"feed"},{"id":"productOut","mount":"bottom","height":0.5,"angle":0.0,"radial":0.0,"type":"outlet"},{"id":"vaporOut","mount":"top","height":0.5,"angle":180.0,"radial":0.0,"type":"vent"}],"belt_conveyor":[{"id":"feedIn","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"feed"},{"id":"dischargeOut","mount":"top","height":0.5,"angle":180.0,"radial":0.0,"type":"outlet"}],"vibro_screen":[{"id":"feedIn","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"feed"},{"id":"oversizeOut","mount":"shell","height":0.72,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"finesOut","mount":"shell","height":0.38,"angle":180.0,"radial":0.6,"type":"outlet"}],"box_bin":[{"id":"inlet","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"feed"}],"bipolar_ed":[{"id":"feedIn","mount":"shell","height":0.2,"angle":180.0,"radial":0.6,"type":"feed"},{"id":"acidOut","mount":"shell","height":0.5,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"baseOut","mount":"shell","height":0.5,"angle":270.0,"radial":0.6,"type":"outlet"}],"grinder":[{"id":"feedIn","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"feed"},{"id":"productOut","mount":"bottom","height":0.5,"angle":0.0,"radial":0.0,"type":"outlet"}],"nitrogen_generator":[{"id":"airIn","mount":"shell","height":0.5,"angle":180.0,"radial":0.6,"type":"feed"},{"id":"nitrogenOut","mount":"shell","height":0.8,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"ventOut","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"vent"}],"air_compressor":[{"id":"airOut","mount":"shell","height":0.75,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"instrumentAirOut","mount":"shell","height":0.55,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"condensateOut","mount":"shell","height":0.05,"angle":0.0,"radial":0.6,"type":"outlet"}],"pipe_tie_in":[{"id":"flangeOut","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"outlet"},{"id":"flangeIn","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"feed"}],"pipe_header":[{"id":"inlet","mount":"shell","height":0.5,"angle":180.0,"radial":0.6,"type":"feed"},{"id":"outlet","mount":"shell","height":0.5,"angle":180.0,"radial":0.6,"type":"outlet"},{"id":"branch1","mount":"shell","height":0.5,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"branch2","mount":"shell","height":0.5,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"branch3","mount":"shell","height":0.5,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"branch4","mount":"shell","height":0.5,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"branch5","mount":"shell","height":0.5,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"branch6","mount":"shell","height":0.5,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"branch7","mount":"shell","height":0.5,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"branch8","mount":"shell","height":0.5,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"branch9","mount":"shell","height":0.5,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"branch10","mount":"shell","height":0.5,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"branch11","mount":"shell","height":0.5,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"branch12","mount":"shell","height":0.5,"angle":90.0,"radial":0.6,"type":"outlet"}],"pipe_tee":[{"id":"runIn","mount":"shell","height":0.5,"angle":180.0,"radial":0.6,"type":"feed"},{"id":"runOut","mount":"shell","height":0.5,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"branch","mount":"shell","height":0.5,"angle":90.0,"radial":0.6,"type":"outlet"}],"valve_manifold":[{"id":"topIn","mount":"shell","height":0.85,"angle":180.0,"radial":0.6,"type":"feed"},{"id":"topOut","mount":"shell","height":0.85,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"botIn","mount":"shell","height":0.12,"angle":0.0,"radial":0.6,"type":"feed"},{"id":"botOut","mount":"shell","height":0.12,"angle":180.0,"radial":0.6,"type":"outlet"},{"id":"top1","mount":"top","height":0.5,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"top2","mount":"top","height":0.5,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"top3","mount":"top","height":0.5,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"top4","mount":"top","height":0.5,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"top5","mount":"top","height":0.5,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"top6","mount":"top","height":0.5,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"top7","mount":"top","height":0.5,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"top8","mount":"top","height":0.5,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"top9","mount":"top","height":0.5,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"top10","mount":"top","height":0.5,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"bot1","mount":"bottom","height":0.5,"angle":0.0,"radial":0.6,"type":"feed"},{"id":"bot2","mount":"bottom","height":0.5,"angle":0.0,"radial":0.6,"type":"feed"},{"id":"bot3","mount":"bottom","height":0.5,"angle":0.0,"radial":0.6,"type":"feed"},{"id":"bot4","mount":"bottom","height":0.5,"angle":0.0,"radial":0.6,"type":"feed"},{"id":"bot5","mount":"bottom","height":0.5,"angle":0.0,"radial":0.6,"type":"feed"},{"id":"bot6","mount":"bottom","height":0.5,"angle":0.0,"radial":0.6,"type":"feed"},{"id":"bot7","mount":"bottom","height":0.5,"angle":0.0,"radial":0.6,"type":"feed"},{"id":"bot8","mount":"bottom","height":0.5,"angle":0.0,"radial":0.6,"type":"feed"},{"id":"bot9","mount":"bottom","height":0.5,"angle":0.0,"radial":0.6,"type":"feed"},{"id":"bot10","mount":"bottom","height":0.5,"angle":0.0,"radial":0.6,"type":"feed"}],"valve_station":[{"id":"brineIn","mount":"shell","height":0.85,"angle":180.0,"radial":0.6,"type":"feed"},{"id":"serviceIn","mount":"shell","height":0.7,"angle":180.0,"radial":0.6,"type":"feed"},{"id":"eluateOut","mount":"shell","height":0.35,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"wasteOut","mount":"shell","height":0.25,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"drainOut","mount":"shell","height":0.15,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"ch1Out","mount":"shell","height":0.6,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"ch2Out","mount":"shell","height":0.6,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"ch3Out","mount":"shell","height":0.6,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"ch4Out","mount":"shell","height":0.6,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"ch5Out","mount":"shell","height":0.6,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"ch6Out","mount":"shell","height":0.6,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"ch7Out","mount":"shell","height":0.6,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"ch8Out","mount":"shell","height":0.6,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"ch9Out","mount":"shell","height":0.6,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"ch10Out","mount":"shell","height":0.6,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"ch1In","mount":"shell","height":0.4,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"ch2In","mount":"shell","height":0.4,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"ch3In","mount":"shell","height":0.4,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"ch4In","mount":"shell","height":0.4,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"ch5In","mount":"shell","height":0.4,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"ch6In","mount":"shell","height":0.4,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"ch7In","mount":"shell","height":0.4,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"ch8In","mount":"shell","height":0.4,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"ch9In","mount":"shell","height":0.4,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"ch10In","mount":"shell","height":0.4,"angle":270.0,"radial":0.6,"type":"feed"}],"leadlag_station":[{"id":"brineIn","mount":"shell","height":0.9,"angle":180.0,"radial":0.6,"type":"feed"},{"id":"waterIn","mount":"shell","height":0.8,"angle":180.0,"radial":0.6,"type":"feed"},{"id":"acidIn","mount":"shell","height":0.7,"angle":180.0,"radial":0.6,"type":"feed"},{"id":"raffinateOut","mount":"shell","height":0.45,"angle":180.0,"radial":0.6,"type":"outlet"},{"id":"eluateOut","mount":"shell","height":0.35,"angle":180.0,"radial":0.6,"type":"outlet"},{"id":"wasteOut","mount":"shell","height":0.25,"angle":180.0,"radial":0.6,"type":"outlet"},{"id":"naclIn","mount":"shell","height":0.6,"angle":180.0,"radial":0.6,"type":"feed"},{"id":"a1Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a1In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b1Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b1In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a2Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a2In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b2Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b2In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a3Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a3In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b3Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b3In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a4Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a4In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b4Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b4In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a5Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a5In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b5Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b5In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a6Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a6In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b6Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b6In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a7Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a7In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b7Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b7In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a8Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a8In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b8Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b8In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a9Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a9In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b9Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b9In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a10Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a10In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b10Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b10In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a11Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a11In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b11Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b11In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a12Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a12In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b12Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b12In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a13Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a13In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b13Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b13In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a14Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a14In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b14Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b14In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a15Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a15In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b15Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b15In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a16Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a16In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b16Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b16In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a17Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a17In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b17Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b17In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a18Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a18In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b18Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b18In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a19Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a19In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b19Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b19In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"a20Out","mount":"shell","height":0.95,"angle":270.0,"radial":0.6,"type":"outlet"},{"id":"a20In","mount":"shell","height":0.1,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"b20Out","mount":"shell","height":0.95,"angle":90.0,"radial":0.6,"type":"outlet"},{"id":"b20In","mount":"shell","height":0.1,"angle":90.0,"radial":0.6,"type":"feed"}],"dosing_skid":[{"id":"lineIn","mount":"shell","height":0.35,"angle":180.0,"radial":0.6,"type":"feed"},{"id":"lineOut","mount":"shell","height":0.35,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"refillIn","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"feed"}],"control_cabinet":[{"id":"cableIn","mount":"shell","height":0.05,"angle":270.0,"radial":0.6,"type":"feed"},{"id":"airIn","mount":"shell","height":0.1,"angle":180.0,"radial":0.6,"type":"feed"}],"nmr_analyser":[{"id":"feedIn","mount":"shell","height":0.3,"angle":180.0,"radial":0.6,"type":"feed"},{"id":"feedOut","mount":"shell","height":0.3,"angle":0.0,"radial":0.6,"type":"outlet"}],"pontoon":[{"id":"seaSuction","mount":"top","height":0.5,"angle":0.0,"radial":0.0,"type":"outlet"},{"id":"overboardA","mount":"top","height":0.5,"angle":0.0,"radial":0.6,"type":"feed"},{"id":"overboardB","mount":"top","height":0.5,"angle":180.0,"radial":0.6,"type":"feed"}],"pier":[],"skid_frame":[],"operator":[],"photo_panel":[],"leak_sensor":[],"shipping_container":[],"hvac_unit":[],"wall_penetration":[{"id":"inside","mount":"shell","height":0.5,"angle":90.0,"radial":0.6,"type":"feed"},{"id":"outside","mount":"shell","height":0.5,"angle":270.0,"radial":0.6,"type":"outlet"}],"safety_shower":[{"id":"waterIn","mount":"shell","height":0.15,"angle":180.0,"radial":0.6,"type":"feed"}],"cartridge_filter":[{"id":"inlet","mount":"shell","height":0.5,"angle":180.0,"radial":0.6,"type":"feed"},{"id":"outlet","mount":"shell","height":0.5,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"drainOut","mount":"bottom","height":0.5,"angle":0.0,"radial":0.0,"type":"outlet"}],"ultrafiltration":[{"id":"feedIn","mount":"shell","height":0.1,"angle":180.0,"radial":0.6,"type":"feed"},{"id":"filtrateOut","mount":"shell","height":0.9,"angle":0.0,"radial":0.6,"type":"outlet"},{"id":"drainOut","mount":"shell","height":0.8,"angle":0.0,"radial":0.6,"type":"outlet"}]}');
 
 // Visual presets per nozzle type. radius/length are fractions of vessel radius.
 var NOZZLE_PRESETS = {
@@ -17908,6 +18280,162 @@ function makeCartridgeFilter(params, nozzles, eqId) {
 
 </script>
 <script>
+// components/ultrafiltration.js
+// makeUltrafiltration(params, nozzles, eqId) -> { mesh, ports, tick, setTransparent, setHover }
+//
+// Ultrafiltration rack: `modules` vertical hollow-fibre UF modules in a row along X
+// on a steel frame, each a PVC-U shell between two end caps with clamp bands.
+// Brine comes in through the feed manifold low under the modules (stubs up into
+// the bottom caps) and leaves as filtrate from the top caps into the filtrate
+// manifold; the side ports near the top feed the backwash / concentrate manifold
+// behind the modules (-Z), which takes the backwash water out. A bundle of fibres
+// stands inside each shell.
+// LOCAL: the feet on the floor at y = 0, modules centred on the origin along X.
+// Ports: `feedIn` at the -X end of the feed manifold (-X), `filtrateOut` at the +X
+// end of the filtrate manifold (+X), `drainOut` at the +X end of the backwash
+// manifold (+X). Mirrored in contract/plant_spec.py (UltrafiltrationParams,
+// ultrafiltration_ports, UF_MANIFOLD_END).
+// HOVER: the fibres glow with the filtrate flow. TRANSPARENT: the shells fade and
+// the fibre bundles show.
+var ULTRAFILTRATION_DEFAULTS = {
+  modules: 4, pitch: 0.28, moduleRadius: 0.1, moduleHeight: 1.3, legHeight: 0.6, feedY: 0.5,
+  headerRadius: 0.045, drainRadius: 0.0315, moduleArea: 0.0,
+  color: 0xF2F3F5, capColor: 0x2F6DB0, frameColor: 0x3A3F45
+};
+var UF_MANIFOLD_END = 0.2;
+
+function _ufParam(params, k) {
+  var v = params ? params[k] : undefined;
+  return (v === undefined || v === null) ? ULTRAFILTRATION_DEFAULTS[k] : v;
+}
+
+// LOCAL (position, direction) of the three ports — mirrored by the contract's
+// ultrafiltration_ports
+function ultrafiltrationPorts(params) {
+  var n = _ufParam(params, "modules"), p = _ufParam(params, "pitch");
+  var half = (n - 1) * p / 2;
+  var top = _ufParam(params, "legHeight") + _ufParam(params, "moduleHeight");
+  return {
+    feedIn:      { position: [-(half + UF_MANIFOLD_END), _ufParam(params, "feedY"), 0], direction: [-1, 0, 0] },
+    filtrateOut: { position: [half + UF_MANIFOLD_END, top + 0.1, 0], direction: [1, 0, 0] },
+    drainOut:    { position: [half + UF_MANIFOLD_END, top - 0.12, -(_ufParam(params, "moduleRadius") + 0.08)],
+                   direction: [1, 0, 0] }
+  };
+}
+
+function makeUltrafiltration(params, nozzles, eqId) {
+  params = params || {};
+  var n = _ufParam(params, "modules"), pitch = _ufParam(params, "pitch");
+  var rm = _ufParam(params, "moduleRadius"), hm = _ufParam(params, "moduleHeight");
+  var leg = _ufParam(params, "legHeight"), fy = _ufParam(params, "feedY");
+  var hr = _ufParam(params, "headerRadius"), dr = _ufParam(params, "drainRadius");
+  var half = (n - 1) * pitch / 2, top = leg + hm;
+  var P = ultrafiltrationPorts(params);
+
+  var group = new THREE.Group();
+  var shellMat = new THREE.MeshStandardMaterial({ color: _ufParam(params, "color"), metalness: 0.0, roughness: 0.5 });
+  var capMat = new THREE.MeshStandardMaterial({ color: _ufParam(params, "capColor"), metalness: 0.0, roughness: 0.5 });
+  var pvcMat = new THREE.MeshStandardMaterial({ color: 0x5E656D, metalness: 0.0, roughness: 0.65 });
+  var frameMat = new THREE.MeshStandardMaterial({ color: _ufParam(params, "frameColor"), metalness: 0.55, roughness: 0.45 });
+  var bandMat = new THREE.MeshStandardMaterial({ color: 0xB9C0C7, metalness: 0.7, roughness: 0.35 });
+  var fibreMat = new THREE.MeshStandardMaterial({ color: 0xF6F4EC, metalness: 0.0, roughness: 0.9,
+                                                  emissive: 0x7FC4F0, emissiveIntensity: 0.0 });
+  function mesh(geo, mat, x, y, z) {
+    var m = new THREE.Mesh(geo, mat); m.position.set(x, y, z); group.add(m); return m;
+  }
+  function pipeX(r, x0, x1, y, z, mat) {
+    var m = mesh(new THREE.CylinderGeometry(r, r, x1 - x0, 14), mat, (x0 + x1) / 2, y, z);
+    m.rotation.z = Math.PI / 2; return m;
+  }
+  function pipeY(r, y0, y1, x, z, mat) {
+    return mesh(new THREE.CylinderGeometry(r, r, y1 - y0, 12), mat, x, (y0 + y1) / 2, z);
+  }
+  function pipeZ(r, z0, z1, x, y, mat) {
+    var m = mesh(new THREE.CylinderGeometry(r, r, Math.abs(z1 - z0), 12), mat, x, y, (z0 + z1) / 2);
+    m.rotation.x = Math.PI / 2; return m;
+  }
+  function pvcJoint(rad) {
+    var j = makeFlangeJoint(rad, { flangeColor: 0x6A7179 });
+    var fm = j.children[0].material; fm.metalness = 0.0; fm.roughness = 0.65;
+    return j;
+  }
+
+  // ---- frame: two rails under the caps, posts at the ends, a top tie ----
+  var fx0 = -half - pitch / 2, fx1 = half + pitch / 2, fz = rm + 0.06;
+  [-fz, fz].forEach(function (z) {
+    mesh(new THREE.BoxGeometry(fx1 - fx0, 0.04, 0.04), frameMat, 0, leg - 0.1, z);
+    mesh(new THREE.BoxGeometry(fx1 - fx0, 0.04, 0.04), frameMat, 0, top - 0.25, z);
+    [fx0, fx1].forEach(function (x) {
+      mesh(new THREE.BoxGeometry(0.04, top - 0.2, 0.04), frameMat, x, (top - 0.2) / 2, z);
+      mesh(new THREE.BoxGeometry(0.1, 0.01, 0.1), frameMat, x, 0.005, z);
+    });
+  });
+  [fx0, fx1].forEach(function (x) {
+    mesh(new THREE.BoxGeometry(0.04, 0.04, 2 * fz), frameMat, x, leg - 0.1, 0);
+  });
+
+  // ---- modules: shell, end caps, clamp bands, fibre bundle, stubs ----
+  var fibres = [];
+  for (var i = 0; i < n; i++) {
+    var x = -half + i * pitch;
+    mesh(new THREE.CylinderGeometry(rm, rm, hm - 0.16, 28), shellMat, x, leg + hm / 2, 0);
+    [leg + 0.04, top - 0.04].forEach(function (y) {
+      mesh(new THREE.CylinderGeometry(rm * 1.08, rm * 1.08, 0.08, 28), capMat, x, y, 0);
+    });
+    [leg + hm * 0.3, leg + hm * 0.7].forEach(function (y) {
+      mesh(new THREE.CylinderGeometry(rm * 1.03, rm * 1.03, 0.025, 28), bandMat, x, y, 0);
+    });
+    var fb = mesh(new THREE.CylinderGeometry(rm * 0.8, rm * 0.8, hm - 0.2, 18), fibreMat, x, leg + hm / 2, 0);
+    fb.userData.noShadow = true; fibres.push(fb);
+    pipeY(hr * 0.7, fy, leg, x, 0, pvcMat);                        // feed stub into the bottom cap
+    pipeY(hr * 0.7, top, top + 0.1, x, 0, pvcMat);                 // filtrate stub out of the top cap
+    pipeZ(dr * 0.8, -rm, P.drainOut.position[2], x, top - 0.12, pvcMat);   // side port to the backwash manifold
+  }
+  // ---- manifolds and their end flanges at the ports ----
+  pipeX(hr, P.feedIn.position[0], half + 0.05, fy, 0, pvcMat);
+  pipeX(hr, -half - 0.05, P.filtrateOut.position[0], top + 0.1, 0, pvcMat);
+  pipeX(dr, -half - 0.05, P.drainOut.position[0], top - 0.12, P.drainOut.position[2], pvcMat);
+  var jf = pvcJoint(hr); jf.rotation.z = Math.PI / 2; jf.position.fromArray(P.feedIn.position); group.add(jf);
+  var jo = pvcJoint(hr); jo.rotation.z = -Math.PI / 2; jo.position.fromArray(P.filtrateOut.position); group.add(jo);
+  var jd = pvcJoint(dr); jd.rotation.z = -Math.PI / 2; jd.position.fromArray(P.drainOut.position); group.add(jd);
+
+  var ports = {};
+  Object.keys(P).forEach(function (k) {
+    ports[k] = { position: new THREE.Vector3(P[k].position[0], P[k].position[1], P[k].position[2]),
+                 direction: new THREE.Vector3(P[k].direction[0], P[k].direction[1], P[k].direction[2]) };
+  });
+
+  var tr = (typeof plantTr === "function") ? plantTr : function (s) { return s; };   // i18n.js
+  var area = _ufParam(params, "moduleArea");
+  var lines = [
+    tr("Ultrafiltration") + ": <b>" + n + " " + tr("hollow-fibre modules") + "</b>",
+    tr("Feed from below, filtrate from the top caps, backwash out through the side ports"),
+    tr("Module") + ": <b>Ø" + Math.round(rm * 2000) + " × " + (hm + 0.16).toFixed(2) + " " + tr("m") + "</b>"
+  ];
+  if (area > 0) lines.push(tr("Membrane area") + ": <b>" + Math.round(area * n) + " m²</b>");
+  lines.push(tr("Holds back suspended solids and colloids before the sorbent"));
+  group.userData.infoLines = lines;
+
+  function setTransparent(flag) {
+    [shellMat, capMat].forEach(function (m) {
+      m.transparent = !!flag; m.opacity = flag ? 0.25 : 1.0; m.depthWrite = !flag; m.needsUpdate = true;
+    });
+  }
+
+  var run = 0, runTarget = 0, t = 0;
+  function setHover(flag) { runTarget = flag ? 1 : 0; }
+  function tick(dt) {
+    t += dt;
+    run += (runTarget - run) * Math.min(1, dt * 2.5);
+    fibreMat.emissiveIntensity = run * (0.35 + 0.15 * Math.sin(t * 4.0));
+    void fibres;
+  }
+
+  return { mesh: group, ports: ports, tick: tick, setTransparent: setTransparent, setHover: setHover };
+}
+
+</script>
+<script>
 // components/line_components.js
 // Inline pipe components placed ON a connection by piping.js. Built in LOCAL
 // space with the flow axis along +X and "up" along +Y; piping.js orients each
@@ -18917,6 +19445,8 @@ function buildPiping(scene, spec, registry) {
     coolant: 0x1abc9c, gas: 0xbdc3c7, reagent: 0xd8c9a0,
     brine: 0x2e8b87, acid: 0xd4c13a, eluate: 0x21c2a8, power: 0xe8631a,
     nacl: 0x2ecc71,
+    // spent brine (raffinate) out of the columns: kept apart from the feed brine
+    raffinate: 0x8e6fb5,
     // instrument air: thin light-grey pneumatic tubing (a signal-grade line,
     // always under pressure -- no flow core, never gated by a phase)
     instrument_air: 0xd5dbe1,
@@ -19732,6 +20262,8 @@ function buildPID(spec) {
     coolant: "#1abc9c", gas: "#bdc3c7", reagent: "#d8c9a0",
     brine: "#2e8b87", acid: "#d4c13a", eluate: "#21c2a8", power: "#e8631a",
     nacl: "#2ecc71",
+    // spent brine (raffinate) out of the columns: kept apart from the feed brine
+    raffinate: "#8e6fb5",
     // instrument air: a pneumatic signal line (ISA 5.1), see the line drawing
     instrument_air: "#cfd6dd",
     "default": "#95a5a6"
@@ -21910,6 +22442,20 @@ var PID_SYMBOLS = {
         stroke: "#8fa6bd", "stroke-width": 1.2, "stroke-dasharray": "3,2" }));   // cartridges
     });
   },
+  ultrafiltration: function (g, e, el) {
+    // the UF rack: a frame with vertical membrane modules (fibres dashed inside),
+    // feed in low on the left, filtrate out on top right
+    g.appendChild(el("rect", { x: -20, y: -16, width: 40, height: 32,
+      fill: "#22303c", stroke: "#cdd6e0", "stroke-width": 2 }));
+    [-12, -4, 4, 12].forEach(function (x) {
+      g.appendChild(el("rect", { x: x - 3, y: -12, width: 6, height: 24, rx: 3, ry: 3,
+        fill: "none", stroke: "#e8e4d8", "stroke-width": 1.4 }));
+      g.appendChild(el("line", { x1: x, y1: -9, x2: x, y2: 9,
+        stroke: "#8fa6bd", "stroke-width": 1, "stroke-dasharray": "2,2" }));
+    });
+    g.appendChild(el("text", { x: 0, y: 26, "text-anchor": "middle", fill: "#cdd6e0",
+      "font-size": 8, "font-family": "sans-serif" })).textContent = "UF";
+  },
   leak_sensor: function (g, e, el) {
     // the LD balloon with the loop number of its tag
     pidTagBalloon(g, { id: (e.params && e.params.tag) || e.id }, el, "LD");
@@ -23313,7 +23859,9 @@ function initGuide(spec, camera, renderer, controls, registry, piping, cycle) {
   var steps = cfg.steps;
   var search = "";
   try { search = String(window.location.search || ""); } catch (e) {}
-  var lang = /[?&]lang=ru\b/i.test(search) ? "ru" : "en";
+  // ?lang=ru|en wins; else the bundle's interface language (ui.lang), else English
+  var uiLang = (spec.ui && spec.ui.lang === "ru") ? "ru" : "en";
+  var lang = /[?&]lang=ru\b/i.test(search) ? "ru" : (/[?&]lang=en\b/i.test(search) ? "en" : uiLang);
   var markersOn = true;
   var current = -1;           // open step index, -1 when the panel is closed
   var fly = null;             // { t, p0, p1, q0, q1 } while the camera flies
@@ -23949,6 +24497,7 @@ function initGuide(spec, camera, renderer, controls, registry, piping, cycle) {
     ,hvac_unit: makeHvacUnit
     ,safety_shower: makeSafetyShower
     ,cartridge_filter: makeCartridgeFilter
+    ,ultrafiltration: makeUltrafiltration
   };
   PLANT_SPEC.equipment.forEach(function (eq) {
     var resolvedNozzles = resolveNozzles(eq.type, eq.nozzles || []);
